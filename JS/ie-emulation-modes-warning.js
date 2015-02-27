@@ -49,3 +49,50 @@
     window.alert('WARNING: You appear to be using IE' + nonEmulated + ' in IE' + emulated + ' emulation mode.\nIE emulation modes can behave significantly differently from ACTUAL older versions of IE.\nPLEASE DON\'T FILE BOOTSTRAP BUGS based on testing in IE emulation modes!')
   }
 })();
+//Begin
+// number of questions
+var numQues = 10;
+
+// number of choices in each question stsrting at index 0
+var numChoi = 4;
+
+// Insert number of questions displayed in answer area
+var answers = new Array(9);
+
+// Insert answers to questions
+answers[0] = "Charles Babbage";
+answers[1] = "transistors";
+answers[2] = "transistors";
+answers[3] = "microchips";
+answers[4] = "all of the above";
+answers[5] = "input, memory , processing, output";
+answers[6] = "disk";
+answers[7] = "Oracle";
+answers[8] = "35 billion US";
+answers[9] = "ENIAC";
+
+function getScore(form) {
+  var score = 0;
+  var currElt;
+  var currSelection;
+  for (i=0; i<numQues; i++) {
+    currElt = i*numChoi;
+    for (j=0; j<numChoi; j++) {
+      currSelection = form.elements[currElt + j];
+      if (currSelection.checked) {
+        if (currSelection.value == answers[i]) {
+          score++;
+          break;
+        }
+      }
+    }
+  }
+  score = Math.round(score/numQues*100);
+  form.percentage.value = score + "%";
+  var correctAnswers = "";
+  for (i=1; i<=numQues; i++) {
+    correctAnswers += i + ". " + answers[i-1] + "\r\n";
+  }
+  form.solutions.value = correctAnswers;
+}
+//  End of javascript-->

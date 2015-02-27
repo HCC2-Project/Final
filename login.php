@@ -35,7 +35,8 @@ if (isset($_REQUEST['Submit'])) //here give the name of your button on which you
         }
 	    else
 		{
-			echo "username or password incorrect";
+	
+                       echo "Username or Password incorrect.\n<br />\n<br />You have to register first if you have not done it already!";                     
 		}
 	}
 }	
