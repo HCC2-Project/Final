@@ -7,6 +7,7 @@
 <?php     //start php tag
 //include connect.php page for database connection
 Include('connect.php');
+
 //if submit is not blanked i.e. it is clicked.
 if (isset($_REQUEST['Submit'])) //here give the name of your button on which you would like    //to perform action.
 {
@@ -26,11 +27,11 @@ if (isset($_REQUEST['Submit'])) //here give the name of your button on which you
 //here you can redirect on your file which you want to show after login just change filename ,give it to your filename.
                    // header('member.php');
  //OR just simply print a message.
-         Echo "You have logged in successfully";
-          //  $sql = "SELECT name, email FROM student WHERE email = '".$_SESSION['user_id']. "'";
-          //  $result = mysql_query($sql);
-          //  $row = mysql_fetch_array($result);
-          //  echo "Hello, " .$row['name'] . " (" .$row['email']. ").";
+         
+          $sql = "SELECT * FROM student WHERE email = '".$_REQUEST['user_id']. "'";
+          $result = mysql_query($sql);
+          $row = mysql_fetch_array($result);
+          echo "Hello, " .$row['name'] . " <br/>Your Password is :" .$row['password'];
          
         }
 	    else
