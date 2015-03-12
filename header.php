@@ -29,6 +29,7 @@
   }
   else $loggedin = FALSE;
 
+  
   echo "<title>$appname$userstr</title><link rel='stylesheet' " .
        "href='styles.css' type='text/css'>"                     .
        "</head>"
@@ -53,23 +54,23 @@
                                 <li class="active"><a href="index.php">Home</a></li>
                                 <li><a href="signup.php">Signup</a></li>
                                 <li><a href="login.php">Login</a></li>
-                                <li><a href="aboutus.html">About Us</a></li>
+                                <li><a href="aboutus.php">About Us</a></li>
                                 <li class="dropdown">
                                     <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Computer Generations <span class="caret"></span></a>
                                     <ul class="dropdown-menu" role="menu">
-                                        <li><a href="1st_generation.html">First Generation</a></li>
-                                        <li><a href="2nd_generation.html">Second Generation</a></li>
-                                        <li><a href="3rd_generation.html">Third Generation</a></li>
-                                        <li><a href="4th_generation.html">Fourth Generation</a></li>
-                                        <li><a href="5th_generation.html">Fifth Generation</a></li>
+                                        <li><a href="1st_generation.php">First Generation</a></li>
+                                        <li><a href="2nd_generation.php">Second Generation</a></li>
+                                        <li><a href="3rd_generation.php">Third Generation</a></li>
+                                        <li><a href="4th_generation.php">Fourth Generation</a></li>
+                                        <li><a href="5th_generation.php">Fifth Generation</a></li>
                                     </ul>
                                 </li>
 
-                                <li><a href="quizzes.html">Quiz Test</a></li>
+                                <li><a href="quizzes.php">Quiz Test</a></li>
                             </ul>
                             
                         </div>';
-                        echo "<div class='appname'>$appname$userstr</div>
+                        echo "<div class='appname'>You are logged in as $userstr</div>
                     </div>";
       
       echo '         
@@ -93,7 +94,7 @@
                     <img src="http://4.bp.blogspot.com/-Hq8goCGjhUY/Ueapox54g8I/AAAAAAAAAGE/HMgwwT-SeZA/s320/1.png" alt="First slide">
                     <div class="container">
                         <div class="carousel-caption">                            
-                            <p><a href="login.html" class="btn btn-lg btn-primary" role="button">Login</a></p>
+                            <p><a href="login.php" class="btn btn-lg btn-primary" role="button">Login</a></p>
                         </div>
                     </div>
                 </div>
@@ -102,7 +103,7 @@
                     <img src="http://s7.computerhistory.org/is/image/CHM/500004505-03-01?$re-zoomed$" alt="Second slide">
                     <div class="container">
                         <div class="carousel-caption">
-                            <p><a href="quizzes.html" class="btn btn-lg btn-primary" role="button">Quizzes</a></p>
+                            <p><a href="quizzes.php" class="btn btn-lg btn-primary" role="button">Quizzes</a></p>
                         </div>
                     </div>
                 </div>                
@@ -111,7 +112,7 @@
                     <img src="http://it-history.net/images/A_wall_of_historic_computers.jpg" alt="Third slide">
                     <div class="container">
                         <div class="carousel-caption">
-                            <p><a href="register.html" class="btn btn-lg btn-primary" role="button">Sign Up</a></p>
+                            <p><a href="signup.php" class="btn btn-lg btn-primary" role="button">Sign Up</a></p>
                         </div>
                     </div>
                 </div>

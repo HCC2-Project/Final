@@ -101,13 +101,6 @@ _END;
                                         </form>
                                       </div>
                                     </div>
-    <form method='post' action='signup.php'>$error
-    <span class='fieldname'>Username</span>
-    <input type='text' maxlength='16' name='user' value='$user'
-      onBlur='checkUser(this)'><span id='info'></span><br>
-    <span class='fieldname'>Password</span>
-    <input type='text' maxlength='16' name='pass'
-      value='$pass'><br>
 _END;
 ?>
 
