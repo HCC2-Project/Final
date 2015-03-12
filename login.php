@@ -50,7 +50,7 @@
                                               <div class="col-xs-6 col-sm-6 col-md-6">
                                                 <input type="submit" name="Submit" value="Login" class="btn btn-lg btn-success btn-block">
                                               </div>
-                                              <div class="col-xs-6 col-sm-6 col-md-6"> <a href="register.html" target="_blank" class="btn btn-lg btn-primary btn-block">Register</a> </div>
+                                              <div class="col-xs-6 col-sm-6 col-md-6"> <a href="signup.php" target="_blank" class="btn btn-lg btn-primary btn-block">Sign Up</a> </div>
                                             </div>
                                           </fieldset>
                                         </form>
