@@ -6,7 +6,8 @@
  * and open the template in the editor.
  */
 //https://youtu.be/DoTGt9CnC5Y code source
-mysql_connect("connect to the database", "username", "password")or die("connection fail");
+//connect to the databse
+mysql_connect("localhost", "username", " ")or die("connection fail");
 mysql_select_db("database name")or die("connection fail");
 $name = $-POST['username'];
 $query ="select* from results where username = --";
