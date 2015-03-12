@@ -69,6 +69,38 @@ _END;
   }
 
   echo <<<_END
+    <div class="col-xs-12 col-sm-8 col-md-6 col-sm-offset-2 col-md-offset-3">
+                                        <form name="signup" method="post" action="signup.php" role="form">$error
+                                          <fieldset>
+                                            <h2>Please Register</h2>
+                                            <hr class="colorgraph">
+                                            <div class="form-group">
+                                              <input name="user" type="text" id="user" value"$user" class="form-control input-lg" placeholder="User Name">
+                                            </div>                                            
+                                            <div class="form-group">
+                                              <input type="password" name="pass" id="pass" value="$pass" class="form-control input-lg" placeholder="Password">
+                                            </div>
+                                            
+                                            <span class="button-checkbox">
+                                            <button type="button" class="btn" data-color="info">Remember Me</button><!-- Additional Option -->
+                                            <input type="checkbox" name="remember_me" id="remember_me" checked="checked" class="hidden">
+                                            <hr class="colorgraph">
+                                            <div class="row">
+                                                
+                                                <div class="col-xs-6 col-sm-6 col-md-6">
+                                                <a href="login.php" target="_blank" class="btn btn-lg btn-success btn-block">Back To Login</a> </div>
+                                              
+                                                 
+                                            
+                                              <div class="col-xs-6 col-sm-6 col-md-6">
+                                                <input type="submit" name="submit" value="Sign Up" class="btn btn-lg btn-primary btn-block">
+                                              </div>
+                                              
+                                            </div>
+                                          </fieldset>
+                                        </form>
+                                      </div>
+                                    </div>
     <form method='post' action='signup.php'>$error
     <span class='fieldname'>Username</span>
     <input type='text' maxlength='16' name='user' value='$user'
