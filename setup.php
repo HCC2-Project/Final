@@ -35,6 +35,11 @@
               'user VARCHAR(16),
               text VARCHAR(4096),
               INDEX(user(6))');
+  
+   createTable('leaderboard',
+              'user VARCHAR(22),
+              text VARCHAR(32),
+              INDEX(user(9))');
 ?>
 
     <br>...done.
