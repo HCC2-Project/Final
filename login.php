@@ -1,6 +1,5 @@
 <?php // Example 26-7: login.php
-  require_once 'header.php';
-  echo "<div class='main'><h3>Please enter your details to log in</h3>";
+  require_once 'header.php';  
   $error = $user = $pass = "";
 
   if (isset($_POST['user']))
@@ -31,7 +30,8 @@
   }
 
   echo <<<_END
-    <div class="col-xs-12 col-sm-8 col-md-6 col-sm-offset-2 col-md-offset-3">
+  <div class="container marketing">
+        <div class="col-xs-12 col-sm-8 col-md-6 col-sm-offset-2 col-md-offset-3">
                                         <form name="form_login" method="post" action="login.php" role="form">$error
                                           <fieldset>
                                             <h2>Please Sign In</h2>
@@ -50,11 +50,23 @@
                                               <div class="col-xs-6 col-sm-6 col-md-6">
                                                 <input type="submit" name="Submit" value="Login" class="btn btn-lg btn-success btn-block">
                                               </div>
-                                              <div class="col-xs-6 col-sm-6 col-md-6"> <a href="register.html" target="_blank" class="btn btn-lg btn-primary btn-block">Register</a> </div>
+                                              <div class="col-xs-6 col-sm-6 col-md-6"> <a href="signup.php" target="_blank" class="btn btn-lg btn-primary btn-block">Sign Up</a> </div>
                                             </div>
                                           </fieldset>
                                         </form>
-                                      </div>   
+                                      </div>
+                                    </div>
+           
+
+
+            <!-- FOOTER -->
+            <footer>
+                <p class="pull-right"><a href="#">Back to top</a></p>
+                <p>&copy; 2014 Company, Inc. &middot; <a href="#">Privacy</a> &middot; <a href="#">Terms</a></p>
+            </footer>
+        </div>
+    </div>
+       
 _END;
 ?>
 

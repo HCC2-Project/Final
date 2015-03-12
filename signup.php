@@ -41,7 +41,7 @@
       return request
     }
   </script>
-  <div class='main'><h3>Please enter your details to sign up</h3>
+  
 _END;
 
   $error = $user = $pass = "";
@@ -69,7 +69,8 @@ _END;
   }
 
   echo <<<_END
-    <div class="col-xs-12 col-sm-8 col-md-6 col-sm-offset-2 col-md-offset-3">
+    <div class="container marketing">
+        <div class="col-xs-12 col-sm-8 col-md-6 col-sm-offset-2 col-md-offset-3">
                                         <form name="signup" method="post" action="signup.php" role="form">$error
                                           <fieldset>
                                             <h2>Please Register</h2>
@@ -101,11 +102,20 @@ _END;
                                         </form>
                                       </div>
                                     </div>
+           
+
+
+            <!-- FOOTER -->
+            <footer>
+                <p class="pull-right"><a href="#">Back to top</a></p>
+                <p>&copy; 2014 Company, Inc. &middot; <a href="#">Privacy</a> &middot; <a href="#">Terms</a></p>
+            </footer>
+        </div>
+    </div>
+    
 _END;
 ?>
 
-    <span class='fieldname'>&nbsp;</span>
-    <input type='submit' value='Sign up'>
-    </form></div><br>
+    
   </body>
 </html>
