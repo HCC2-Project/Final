@@ -6,7 +6,7 @@
           . "<meta name='viewport' content='width=device-width, initial-scale=1'>"
           . "<meta name='description' content=''>"
           . " <meta name='author' content=''>"
-          . "<link rel='icon' href='../../favicon.ico'>"
+          . "<link rel='icon' href='Icon/favicon.ico'>"
           . "<link href='CSS/bootstrap.min.css' rel='stylesheet' type='text/css'/>"
           . "<link href='CSS/carousel.css' rel='stylesheet' type='text/css'/>"
           . "<script src='JS/ie-emulation-modes-warning.js' type='text/javascript'></script>"
@@ -34,6 +34,10 @@
        "</head>"
           . "<body>"
        ."<script src='javascript.js'></script>";
+ 
+  
+  
+  
       echo ' <div class="navbar-wrapper">
             <div class="container">
 
@@ -69,8 +73,16 @@
                             </ul>
                             
                         </div>';
-                        echo "<div class='appname'>You are logged in as <a href='profile.php'>$userstr</a> <a href='logout.php'>Log Out</a></div>
-                    </div>";
+        if ($loggedin)
+  {
+    echo "(You are logged in as <a href='profile.php'>$userstr</a> &nbsp;|&nbsp; <a href='logout.php'>Log out</a>";
+  }
+  else
+  {
+    echo "(<a href='signup.php'>Sign up</a>&nbsp;|&nbsp;<a href='login.php'>Log in</a>";
+  }
+                       // echo "<div class='appname'>You are logged in as <a href='profile.php'>$userstr</a> <a href='logout.php'>Log Out</a></div>
+                    echo "</div>";
       
       echo '         
                 </nav>
