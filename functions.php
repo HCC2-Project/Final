@@ -7,7 +7,11 @@
 
   $connection = new mysqli($dbhost, $dbuser, $dbpass, $dbname);
   if ($connection->connect_error) die($connection->connect_error);
-
+  function alterTable(){
+      queryMysql("ALTER TABLE members
+                  ADD quiz_score Integer(2)");
+  }
+  
   function createTable($name, $query)
   {
     queryMysql("CREATE TABLE IF NOT EXISTS $name($query)");

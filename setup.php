@@ -40,6 +40,8 @@
               'user VARCHAR(22),
               text VARCHAR(32),
               INDEX(user(9))');
+   
+   alterTable();
 ?>
 
     <br>...done.

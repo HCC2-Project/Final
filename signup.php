@@ -89,7 +89,7 @@ _END;
                                             <div class="row">
                                                 
                                                 <div class="col-xs-6 col-sm-6 col-md-6">
-                                                <a href="login.php" target="_blank" class="btn btn-lg btn-success btn-block">Back To Login</a> </div>
+                                                <a href="login.php"  class="btn btn-lg btn-success btn-block">Back To Login</a> </div>
                                               
                                                  
                                             

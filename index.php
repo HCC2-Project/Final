@@ -51,7 +51,7 @@
 
             <div class="row featurette">
                 <div class="col-md-5">
-                   <img class="featurette-image img-responsive" src="img.jpg" style="width: 500px; height: 500px;">
+                   <img class="featurette-image img-responsive" src="Amstrad_CPC464.jpg" style="width: 500px; height: 500px;">
                 </div>
                 <div class="col-md-7">
                     <h2 class="featurette-heading">Oh yeah, its that good. <span class="text-muted">See for yourself.</span></h2>

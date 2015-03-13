@@ -1,6 +1,5 @@
 <?php // Example 26-2: header.php
   session_start();
-
   echo "<!DOCTYPE html>\n<html><head>"
   . "<meta charset='utf-8'>"
           . "<meta http-equiv='X-UA-Compatible' content='IE=edge'>"
