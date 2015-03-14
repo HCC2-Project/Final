@@ -76,10 +76,10 @@ _END;
                     <h2>Please Register</h2>
                      <hr class="colorgraph">
                         <div class="form-group">
-                             <input name="user" type="text" id="user" value"$user" class="form-control input-lg" placeholder="User Name">
+                             <input name="user" type="text" id="user" value"$user" class="form-control input-lg" placeholder="User Name" required autofocus>
                         </div>                                            
                         <div class="form-group">
-                            <input type="password" name="pass" id="pass" value="$pass" class="form-control input-lg" placeholder="Password">
+                            <input type="password" name="pass" id="pass" value="$pass" class="form-control input-lg" placeholder="Password" required>
                         </div>
                                             
                         <span class="button-checkbox">

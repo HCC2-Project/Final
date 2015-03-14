@@ -43,11 +43,10 @@
                                 <span class="icon-bar"></span>
                                 <span class="icon-bar"></span>
                             </button>
-                            <a class="navbar-brand" href="#">Computer History</a>
+                            <a class="navbar-brand" href="index.php">Home</a>
                         </div>
                         <div id="navbar" class="navbar-collapse collapse">
                             <ul class="nav navbar-nav">
-                                <li class="active"><a href="index.php">Home</a></li>
                                 <li><a href="signup.php">Signup</a></li>
                                 <li><a href="login.php">Login</a></li>
                                 <li><a href="aboutus.php">About Us</a></li>
@@ -98,9 +97,15 @@
                 <div class="item active">
                     <img src="http://4.bp.blogspot.com/-Hq8goCGjhUY/Ueapox54g8I/AAAAAAAAAGE/HMgwwT-SeZA/s320/1.png" alt="First slide">
                     <div class="container">
-                        <div class="carousel-caption">                            
-                            <p><a href="login.php" class="btn btn-lg btn-primary" role="button">Login</a></p>
-                        </div>
+                        <div class="carousel-caption">';
+                                if ($loggedin)
+  {
+                            echo'<p><a href="logout.php" class="btn btn-lg btn-primary" role="button">Logout</a></p>';
+  }
+  else {
+                            echo'<p><a href="login.php" class="btn btn-lg btn-primary" role="button">Login</a></p>';
+  }                            
+                        echo'</div>
                     </div>
                 </div>
 
@@ -137,7 +142,7 @@
                 <span class="sr-only">Previous</span>
             </a>
             <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
-                <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                <span class= "glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
                 <span class="sr-only">Next</span>
             </a>
         </div>';
