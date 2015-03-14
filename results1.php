@@ -1,15 +1,7 @@
-<html>
-
-<head>
-<title>Quiz Results</title>
-<script src="JS/quizconfig.js" type="text/javascript"></script>
-</head>
-
-<body bgcolor="#FFFFCC">
-
+<?php
+require_once 'header.php';
+echo '
 <p align="center"><strong><font face="Arial">
-
-
 
 <big> Quiz Results</big></font></strong></p>
 <div align="center"><center>
@@ -46,14 +38,14 @@ document.result[i].value=""
 
 var results=document.cookie.split(";")
 for (j=0;j<=results.length-1;j++){
-if (results[j].charAt(1)=='q')
+if (results[j].charAt(1)=="q")
 parse=j
 
 }
 
 var incorrect=results[parse].split("=")
 incorrect=incorrect[1].split("/")
-if (incorrect[incorrect.length-1]=='b')
+if (incorrect[incorrect.length-1]=="b")
 incorrect=""
 document.result[0].value=totalquestions-incorrect.length+" out of "+totalquestions
 document.result[2].value=(totalquestions-incorrect.length)/totalquestions*100+"%"
@@ -67,6 +59,8 @@ document.result[1].value+=incorrect[i]+", "
   onClick="history.go(-1)"> <input type="button" value="View solution" name="B2"
   onClick="showsolution()"></p>
   </center></div>
-</form>
+</form>';
+?>
 </body>
 </html>
+

@@ -1,24 +1,8 @@
 <?php // Example 26-2: header.php
   session_start();
-  echo "<!DOCTYPE html>\n<html><head>"
-  . "<meta charset='utf-8'>"
-          . "<meta http-equiv='X-UA-Compatible' content='IE=edge'>"
-          . "<meta name='viewport' content='width=device-width, initial-scale=1'>"
-          . "<meta name='description' content=''>"
-          . " <meta name='author' content=''>"
-          . "<link rel='icon' href='Icon/favicon.ico'>"
-          . "<link href='CSS/bootstrap.min.css' rel='stylesheet' type='text/css'/>"
-          . "<link href='CSS/carousel.css' rel='stylesheet' type='text/css'/>"
-          . "<script src='JS/ie-emulation-modes-warning.js' type='text/javascript'></script>"
-          . "<link rel='stylesheet' href='CSS/main.css' type='text/css'>";
-        
-        
-       
-        
-
-  require_once 'functions.php';
-
-  $userstr = ' (Guest)';
+   require_once 'functions.php';
+   
+     $userstr = ' (Guest)';
 
   if (isset($_SESSION['user']))
   {
@@ -28,15 +12,24 @@
   }
   else $loggedin = FALSE;
 
-  
-  echo "<title>$appname$userstr</title><link rel='stylesheet' " .
+   
+  echo "<!DOCTYPE html>\n<html><head>";
+        echo "<title>$appname$userstr</title><link rel='stylesheet" .
+            "<meta charset='utf-8'>"
+          . "<meta http-equiv='X-UA-Compatible' content='IE=edge'>"
+          . "<meta name='viewport' content='width=device-width, initial-scale=1'>"
+          . "<meta name='description' content=''>"
+          . " <meta name='author' content=''>"
+          . "<link rel='icon' href='Icon/favicon.ico'>"
+          . "<link href='CSS/bootstrap.min.css' rel='stylesheet' type='text/css'/>"
+          . "<link href='CSS/carousel.css' rel='stylesheet' type='text/css'/>"
+          . "<link href='CSS/styles.css' rel='stylesheet' type='text/css'/>"
+          . "<script src='JS/ie-emulation-modes-warning.js' type='text/javascript'></script>"
+          . "<link rel='stylesheet' href='CSS/main.css' type='text/css'>";
        "href='styles.css' type='text/css'>"                     .
        "</head>"
           . "<body>"
        ."<script src='javascript.js'></script>";
- 
-  
-  
   
       echo ' <div class="navbar-wrapper">
             <div class="container">
@@ -75,13 +68,14 @@
                         </div>';
         if ($loggedin)
   {
-    echo "(You are logged in as <a href='profile.php'>$userstr</a> &nbsp;|&nbsp; <a href='logout.php'>Log out</a>";
+    echo "<font color='white'>You are logged in as <a href='members.php?view=$user'>$userstr</a> &nbsp;|&nbsp; "
+            . "<a href='logout.php'>Log out</a></font>";
   }
   else
   {
-    echo "(<a href='signup.php'>Sign up</a>&nbsp;|&nbsp;<a href='login.php'>Log in</a>";
+    echo "<font color='white'>You are not logged in.</font>";
   }
-                       // echo "<div class='appname'>You are logged in as <a href='profile.php'>$userstr</a> <a href='logout.php'>Log Out</a></div>
+                       //echo "<div class='appname'>You are logged in as <a href='profile.php'>$userstr</a> <a href='logout.php'>Log Out</a></div>
                     echo "</div>";
       
       echo '         
@@ -146,43 +140,15 @@
                 <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
                 <span class="sr-only">Next</span>
             </a>
-        </div><!-- /.carousel -->
+        </div>';
 
 
-        <!-- Marketing messaging and featurettes
-        ================================================== -->
-        <!-- Wrap the rest of the page in another container to center all the content. -->
-
-        <div class="container marketing">
-
-            <!-- Three columns of text below the carousel -->
-            
-
-
-
-            </div><!-- /.row -->
-
-
-            <!-- START THE FEATURETTES -->
-
-           
-
-            <!-- /END THE FEATURETTES -->
-
-
-            
-
-        <!-- /.container -->
-
-
-        <!-- Bootstrap core JavaScript
+?>
+       <!-- Bootstrap core JavaScript
         ================================================== -->
         <!-- Placed at the end of the document so the pages load faster -->
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
         <script src="JS/bootstrap.min.js" type="text/javascript"></script>
         <script src="JS/docs.min.js" type="text/javascript"></script>
         <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
-        <script src="JS/ie10-viewport-bug-workaround.js" type="text/javascript"></script>';
-
-
-?>
+        <script src="JS/ie10-viewport-bug-workaround.js" type="text/javascript"></script>

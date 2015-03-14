@@ -4,7 +4,12 @@
   
 
   if (!$loggedin) die();
-
+         echo"<ul class='menus'>" .
+         "<li><a href='members.php'>Members</a></li>"         .
+         "<li><a href='friends.php'>Friends</a></li>"         .
+         "<li><a href='messages.php'>Messages</a></li>"       .
+         "<li><a href='profile.php'>Edit Profile</a></li>"    .
+         "<li><a href='logout.php'>Log out</a></li></ul><br>";
   echo "<div class='main'>";
 
   if (isset($_GET['view']))
@@ -15,13 +20,6 @@
     else                $name = "$view's";
     
     echo "<h3>$name Profile</h3>";
-                  echo "<br ><ul class='menus'>" .
-         "<li><a href='members.php?view=$user'>Home</a></li>" .
-         "<li><a href='members.php'>Members</a></li>"         .
-         "<li><a href='friends.php'>Friends</a></li>"         .
-         "<li><a href='messages.php'>Messages</a></li>"       .
-         "<li><a href='profile.php'>Edit Profile</a></li>"    .
-         "<li><a href='logout.php'>Log out</a></li></ul><br>";
     showProfile($view);
     
     echo "<a class='button' href='messages.php?view=$view'>" .
@@ -48,7 +46,6 @@
 
   echo "<h3>Other Members</h3><ul><br>";
               echo "<br ><ul class='menus'>" .
-         "<li><a href='members.php?view=$user'>Home</a></li>" .
          "<li><a href='members.php'>Members</a></li>"         .
          "<li><a href='friends.php'>Friends</a></li>"         .
          "<li><a href='messages.php'>Messages</a></li>"       .

@@ -2,7 +2,12 @@
   require_once 'header.php';
 
   if (!$loggedin) die();
-
+          echo"<ul class='menus'>" .
+         "<li><a href='members.php'>Members</a></li>"         .
+         "<li><a href='friends.php'>Friends</a></li>"         .
+         "<li><a href='messages.php'>Messages</a></li>"       .
+         "<li><a href='profile.php'>Edit Profile</a></li>"    .
+         "<li><a href='logout.php'>Log out</a></li></ul><br><br>";
   if (isset($_GET['view'])) $view = sanitizeString($_GET['view']);
   else                      $view = $user;
 
@@ -29,6 +34,7 @@
     }
 
     echo "<div class='main'><h3>$name1 Messages</h3>";
+    
     showProfile($view);
     
     echo <<<_END

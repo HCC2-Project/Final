@@ -49,50 +49,85 @@
     window.alert('WARNING: You appear to be using IE' + nonEmulated + ' in IE' + emulated + ' emulation mode.\nIE emulation modes can behave significantly differently from ACTUAL older versions of IE.\nPLEASE DON\'T FILE BOOTSTRAP BUGS based on testing in IE emulation modes!')
   }
 })();
-//Begin
-// number of questions
-var numQues = 10;
 
-// number of choices in each question stsrting at index 0
-var numChoi = 4;
 
-// Insert number of questions displayed in answer area
-var answers = new Array(9);
+//JS forquizzes 
+//
 
-// Insert answers to questions
-answers[0] = "Charles Babbage";
-answers[1] = "transistors";
-answers[2] = "transistors";
-answers[3] = "microchips";
-answers[4] = "all of the above";
-answers[5] = "input, memory , processing, output";
-answers[6] = "disk";
-answers[7] = "Oracle";
-answers[8] = "35 billion US";
-answers[9] = "ENIAC";
+//Enter total number of questions:
+var totalquestions=10
 
-function getScore(form) {
-  var score = 0;
-  var currElt;
-  var currSelection;
-  for (i=0; i<numQues; i++) {
-    currElt = i*numChoi;
-    for (j=0; j<numChoi; j++) {
-      currSelection = form.elements[currElt + j];
-      if (currSelection.checked) {
-        if (currSelection.value == answers[i]) {
-          score++;
-          break;
-        }
-      }
-    }
-  }
-  score = Math.round(score/numQues*100);
-  form.percentage.value = score + "%";
-  var correctAnswers = "";
-  for (i=1; i<=numQues; i++) {
-    correctAnswers += i + ". " + answers[i-1] + "\r\n";
-  }
-  form.solutions.value = correctAnswers;
+//Enter the solutions corresponding to each question:
+var correctchoices=new Array()
+correctchoices[1]='c' //question 1 solution
+correctchoices[2]='a' //question 2 solution, and so on.
+correctchoices[3]='c'
+correctchoices[4]='c'
+correctchoices[5]='d'
+correctchoices[6]='c'
+correctchoices[7]='b'
+correctchoices[8]='b'
+correctchoices[9]='c'
+correctchoices[10]='b'
+
+function gradeit(){
+var incorrect=null
+for (q=1;q<=totalquestions;q++){
+	var thequestion=eval("document.myquiz.question"+q)
+	for (c=0;c<thequestion.length;c++){
+		if (thequestion[c].checked==true)
+		actualchoices[q]=thequestion[c].value
+		}
+		
+	if (actualchoices[q]!=correctchoices[q]){ //process an incorrect choice
+		if (incorrect==null)
+		incorrect=q
+		else
+		incorrect+="/"+q
+		}
+	}
+
+if (incorrect==null)
+incorrect="a/b"
+document.cookie='q='+incorrect
+if (document.cookie=='')
+alert("Your browser does not accept cookies. Please adjust your browser settings.")
+else
+window.location="results1.php"
 }
+
+
+function showsolution(){
+var win2=window.open("","win2","width=200,height=350, scrollbars")
+win2.focus()
+win2.document.open()
+win2.document.write('<title>Solution</title>')
+win2.document.write('<body bgcolor="#FFFFCC">')
+win2.document.write('<center><h3>Solution to Quiz</h3></center>')
+win2.document.write('<center><font face="Arial">')
+for (i=1;i<=totalquestions;i++){
+for (temp=0;temp<incorrect.length;temp++){
+if (i==incorrect[temp])
+wrong=1
+}
+if (wrong==1){
+win2.document.write("Question "+i+"="+correctchoices[i].fontcolor("red")+"<br>")
+wrong=0
+}
+else
+win2.document.write("Question "+i+"="+correctchoices[i].fontcolor("green")+"<br>")
+}
+win2.document.write('</center></font>')
+win2.document.write("<h5>Note:The solutions in red are the ones to the questions you had incorrectly answered.</h5><p align='center'><small>")
+win2.document.close()
+}
+
+
+//to view solution in table JS 
+
+
+
+
+
+
 //  End of javascript-->

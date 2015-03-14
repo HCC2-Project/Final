@@ -2,8 +2,13 @@
   require_once 'header.php';
 
   if (!$loggedin) die();
-
-  echo "<div class='main'><h3>Your Profile</h3>";
+      echo"<ul class='menus'>" .
+         "<li><a href='members.php'>Members</a></li>"         .
+         "<li><a href='friends.php'>Friends</a></li>"         .
+         "<li><a href='messages.php'>Messages</a></li>"       .
+         "<li><a href='profile.php'>Edit Profile</a></li>"    .
+         "<li><a href='logout.php'>Log out</a></li></ul><br>";
+  echo "<div class='main'><h3>Your Profile</h3><br>";
 
   $result = queryMysql("SELECT * FROM profiles WHERE user='$user'");
     
@@ -77,7 +82,7 @@
   }
 
   showProfile($user);
-
+ 
   echo <<<_END
     <form method='post' action='profile.php' enctype='multipart/form-data'>
     <h3>Enter or edit your details and/or upload an image</h3>
