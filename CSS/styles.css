@@ -1,0 +1,88 @@
+/* Example 26-13: styles.css */
+
+
+
+body {
+    border    :1px solid #888;
+}
+
+
+img {
+    border            :1px solid black;
+    margin-right      :15px;
+    -moz-box-shadow   :2px 2px 2px #888;
+    -webkit-box-shadow:2px 2px 2px #888;
+    box-shadow        :2px 2px 2px #888;
+}
+
+li a, .button {
+    text-decoration:none;
+    font-weight: 500;
+}
+
+li a:hover, .button:hover {
+    color:green;
+}
+
+.appname {
+    text-align :center;
+    background :#eb8;
+    color      :#40d;
+    font-family:helvetica;
+    font-size  :20pt;
+    padding    :4px;
+}
+
+.fieldname {
+    float:right;
+    width:120px;
+}
+
+.main {
+    margin-left: 30px;
+}
+
+.info {
+    background :lightgreen;
+    color      :blue;
+    border     :1px solid green;
+    padding    :5px 10px;
+    margin-left:40px;
+}
+.menus{
+  
+  top: 0;
+  right: 0;
+  left: 0;
+  
+}
+.menus li, .button {
+    display           :inline;
+    padding           :4px 6px;
+    border            :2px solid black;
+    background        :#ddd;
+    color             :#d04;
+    margin-right      :8px;
+    border-radius     :5px;
+    -moz-box-shadow   :2px 2px 2px #888;
+    -webkit-box-shadow:2px 2px 2px #888;
+    box-shadow        :2px 2px 2px #888;
+}
+
+.subhead {
+    font-weight:bold;
+}
+
+.taken, .error {
+    color:red;
+}
+
+.available {
+    color:green;
+}
+
+.whisper {
+    font-style:italic;
+    color     :#006600;
+}
+
