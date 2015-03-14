@@ -85,8 +85,8 @@ h2{
   font-weight: normal;
 }
 .marketing .col-lg-4 p {
-  margin-right: 10px;
-  margin-left: 10px;
+  margin-riht: 10px;
+  margin-lgeft: 10px;
 }
 
 
@@ -97,10 +97,14 @@ h2{
   margin: 80px 0; /* Space out the Bootstrap <hr> more */
 }
 
+.featurette-quizhr {
+  margin: 60px 0.05px; /* Space out the Bootstrap <hr> more */
+}
+
 /* Thin out the marketing headings */
 .featurette-heading {
   font-weight: 300;
-  line-height: 1;
+  line-height: 4;
   letter-spacing: -1px;
 }
 

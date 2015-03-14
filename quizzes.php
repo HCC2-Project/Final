@@ -6,13 +6,13 @@
  */
 require_once 'header.php';
 echo'
-    <style>
+<style>
 .qheader{
 font:bold 14px Arial;
 }
-
 .qselections{
 font:normal 13px Arial;
+line-height: 300%;
 }
 </style>
 <div class="container marketing">
@@ -22,8 +22,9 @@ font:normal 13px Arial;
 <form method="POST" name="myquiz">
 
 
-
 <div class="qheader">
+
+<hr class="featurette-divider">
 1)  Who was known as the Father of Computers?</div>
 <div class="qselections">
 <input type="radio" value="a" name="question1">a)Blasie Pascal<br>
@@ -32,7 +33,7 @@ font:normal 13px Arial;
 <input type="radio" value="d" name="question1">d)Herman Hollerith<br>
 </div>
 
-<br>
+<hr class="featurette-quizhr">
 
 <div class="qheader">
 2)The Second Generation of computers used this to control operations:</div>
@@ -43,7 +44,7 @@ font:normal 13px Arial;
 <input type="radio" value="d" name="question2">d)vacuum tubes<br>
 </div>
 
-<br>
+<hr class="featurette-quizhr">
 
 <div class="qheader">
 3)Joseph Jacquard used to control he operations of his loom?</div>
@@ -54,7 +55,7 @@ font:normal 13px Arial;
 <input type="radio" value="d" name="question3">d) punched cards<br>
 </div>
 
-<br>
+<hr class="featurette-quizhr">
 
 <div class="qheader">
 4) The Fourth Generation of computers used this to control operations:</div>
@@ -65,7 +66,7 @@ font:normal 13px Arial;
 <input type="radio" value="d" name="question4">d) vacuum tubes<br>
 </div>
 
-<br>
+<hr class="featurette-quizhr">
 
 <div class="qheader">
 5) The arithmetic/logic unit of the computer:</div>
@@ -76,7 +77,7 @@ font:normal 13px Arial;
 <input type="radio" value="d" name="question5">d) all of the above<br>
 </div>
 
-<br>
+<hr class="featurette-quizhr">
 
 <div class="qheader">
 6) Which of the following is the correct order of the processing cycle of a computer?</div>
@@ -87,7 +88,7 @@ font:normal 13px Arial;
 <input type="radio" value="d" name="question6">d) memory, input, output, processing<br>
 </div>
 
-<br>
+<hr class="featurette-quizhr">
  
 <div class="qheader">
 7) What device is BOTH an input and output device?</div>
@@ -98,7 +99,7 @@ font:normal 13px Arial;
 <input type="radio" value="d" name="question7">d) keyboard<br>
 </div>
 
-<br>
+<hr class="featurette-quizhr">
 
 <div class="qheader">
 8)Which software firm is the second largest in the world, after Microsoft?</div>
@@ -109,7 +110,7 @@ font:normal 13px Arial;
 <input type="radio" value="d" name="question8">d) Norton<br>
 </div>
 
-<br>
+<hr class="featurette-quizhr">
 
 <div class="qheader">
 9) As of January 2003, how much is Microsoft Chairman Bill Gatess net worth?</div>
@@ -120,7 +121,7 @@ font:normal 13px Arial;
 <input type = "radio" value = "d" name = "question9">d) 50 billion US<br>
 </div>
 
-<br>
+<hr class="featurette-quizhr">
 
 <div class = "qheader">
 10) The first electronic computer was called?</div>
