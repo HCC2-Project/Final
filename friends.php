@@ -2,6 +2,13 @@
   require_once 'header.php';
 
   if (!$loggedin) die();
+           echo"<ul class='menus'>" .
+         "<li><a href='members.php'>Members</a></li>"         .
+         "<li><a href='friends.php'>Friends</a></li>"         .
+         "<li><a href='messages.php'>Messages</a></li>"       .
+         "<li><a href='profile.php'>Edit Profile</a></li>"    .
+         "<li><a href='logout.php'>Log out</a></li></ul><br><br>";
+  echo"<div class='main'><h3>Your Friends</h3>";
 
   if (isset($_GET['view'])) $view = sanitizeString($_GET['view']);
   else                      $view = $user;
@@ -10,6 +17,7 @@
   {
     $name1 = $name2 = "Your";
     $name3 =          "You are";
+    
   }
   else
   {
@@ -20,7 +28,7 @@
 
   echo "<div class='main'>";
 
-  // Uncomment this line if you wish the user’s profile to show here
+  // Uncomment this line if you wish the userï¿½s profile to show here
   // showProfile($view);
 
   $followers = array();
