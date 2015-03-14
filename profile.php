@@ -82,7 +82,7 @@
   }
 
   showProfile($user);
- 
+ echo"<br>";
   echo <<<_END
     <form method='post' action='profile.php' enctype='multipart/form-data'>
     <h3>Enter or edit your details and/or upload an image</h3>

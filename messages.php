@@ -36,13 +36,13 @@
     echo "<div class='main'><h3>$name1 Messages</h3>";
     
     showProfile($view);
-    
+    echo"<br>";
     echo <<<_END
       <form method='post' action='messages.php?view=$view'>
       Type here to leave a message:<br>
       <textarea name='text' cols='40' rows='3'></textarea><br>
-      Public<input type='radio' name='pm' value='0' checked='checked'>
-      Private<input type='radio' name='pm' value='1'>
+      Public<input type='radio' name='pm' value='0' checked='checked'>&nbsp;&nbsp;
+      Private<input type='radio' name='pm' value='1'>&nbsp;&nbsp;
       <input type='submit' value='Post Message'></form><br>
 _END;
 
