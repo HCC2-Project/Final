@@ -1,5 +1,7 @@
 <?php // Example 26-9: members.php
   require_once 'header.php';
+  
+  
 
   if (!$loggedin) die();
 
@@ -13,7 +15,15 @@
     else                $name = "$view's";
     
     echo "<h3>$name Profile</h3>";
+                  echo "<br ><ul class='menus'>" .
+         "<li><a href='members.php?view=$user'>Home</a></li>" .
+         "<li><a href='members.php'>Members</a></li>"         .
+         "<li><a href='friends.php'>Friends</a></li>"         .
+         "<li><a href='messages.php'>Messages</a></li>"       .
+         "<li><a href='profile.php'>Edit Profile</a></li>"    .
+         "<li><a href='logout.php'>Log out</a></li></ul><br>";
     showProfile($view);
+    
     echo "<a class='button' href='messages.php?view=$view'>" .
          "View $name messages</a><br><br>";
     die("</div></body></html>");
@@ -36,8 +46,14 @@
   $result = queryMysql("SELECT user FROM members ORDER BY user");
   $num    = $result->num_rows;
 
-  echo "<h3>Other Members</h3><ul>";
-
+  echo "<h3>Other Members</h3><ul><br>";
+              echo "<br ><ul class='menus'>" .
+         "<li><a href='members.php?view=$user'>Home</a></li>" .
+         "<li><a href='members.php'>Members</a></li>"         .
+         "<li><a href='friends.php'>Friends</a></li>"         .
+         "<li><a href='messages.php'>Messages</a></li>"       .
+         "<li><a href='profile.php'>Edit Profile</a></li>"    .
+         "<li><a href='logout.php'>Log out</a></li></ul><br><br><br>";
   for ($j = 0 ; $j < $num ; ++$j)
   {
     $row = $result->fetch_array(MYSQLI_ASSOC);
@@ -58,7 +74,7 @@
     elseif ($t1)         echo " &larr; you are following";
     elseif ($t2)       { echo " &rarr; is following you";
       $follow = "recip"; }
-    
+
     if (!$t1) echo " [<a href='members.php?add="   .$row['user'] . "'>$follow</a>]";
     else      echo " [<a href='members.php?remove=".$row['user'] . "'>drop</a>]";
   }
