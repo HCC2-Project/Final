@@ -1,25 +1,24 @@
 <?php
 require_once 'header.php';
 echo '
-<p align="center"><strong><font face="Arial">
+<p align="center"><strong><font face="Arial"><big> Quiz Results</font></strong></strong></p>
+<div align="center"><div>
 
-<big> Quiz Results</big></font></strong></p>
-<div align="center"><center>
-
-<table border="0" cellspacing="0" cellpadding="0">
+<table border="1" cellspacing="2" cellpadding="2">
   <tr>
-    <td width="100%"><form method="POST" name="result"><table border="0" width="100%" cellpadding="0" height="116">
-        <tr>
-          <td height="25" bgcolor="#009900"><strong><font face="Arial">Correct Answers:</font></strong></td>
-          <td height="25"><p><input type="text" name="p" size="24"></td>
+    <td width="100%"><form method="POST" name="result"><table border="0" width="100%" cellpadding="2">
         </tr>
         <tr>
-          <td height="17" bgcolor="#FF0000"><strong><font face="Arial">Incorrect Answers:</font></strong></td>
-          <td height="17"><p><textarea name="T2" rows="3" cols="24" wrap="virtual"></textarea></td>
+          <td height="5" font weight="strong" bgcolor="#009900"><strong><font color="black">Correct Answers:</font></strong></td>
+           <td height="5"><textarea name="T2" rows="1" cellpadding="1" cols="25" wrap="virtual"></textarea></td>
         </tr>
         <tr>
-          <td height="25" bgcolor="#009900"><strong><font face="Arial">Grade in percentage:</font></strong></td>
-          <td height="25"><input type="text" name="q" size="8"></td>
+          <td height="5" font weight="strong" bgcolor="#FF0000"><strong><font color="black">Incorrect Answers:</font></strong></td>
+          <td height="5"><textarea name="T2" rows="1" padding="1" cols="25" wrap="virtual"></textarea></td>
+        </tr>
+        <tr>
+          <td height="5" font weight="strong" bgcolor="#009900"><strong><font color="black">Score achieved in Percentage:</font></strong></td>
+          <td height="5"><textarea name="T2" rows="1" cellpadding="1" cols="25" wrap="virtual"></textarea></td>
         </tr>
       </table>
     </form>
@@ -54,7 +53,7 @@ document.result[1].value+=incorrect[i]+", "
 
 
 </script>
-
+<br>
 <input type="button" value="Take the quiz again" name="B1"
   onClick="history.go(-1)"> <input type="button" value="View solution" name="B2"
   onClick="showsolution()"></p>
