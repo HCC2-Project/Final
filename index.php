@@ -25,14 +25,9 @@
                     <p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
                     <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
                 </div><!-- /.col-lg-4 -->
-
-
-
             </div><!-- /.row -->
 
-
             <!-- START THE FEATURETTES -->
-
             <hr class="featurette-divider">
 
             <div class="row featurette">
@@ -46,7 +41,6 @@
             </div>
 
             <hr class="featurette-divider">
-
             <div class="row featurette">
                 <div class="col-md-5">
                    <img class="featurette-image img-responsive" src="Amstrad_CPC464.jpg" style="width: 500px; height: 500px;">
@@ -58,7 +52,6 @@
             </div>
 
             <hr class="featurette-divider">
-
             <div class="row featurette">
                 <div class="col-md-7">
                     <h2 class="featurette-heading">And lastly, this one. <span class="text-muted">Checkmate.</span></h2>
@@ -70,7 +63,6 @@
             </div>
 
             <hr class="featurette-divider">
-
             <!-- /END THE FEATURETTES -->
 
 
@@ -79,10 +71,9 @@
                 <p class="pull-right"><a href="#">Back to top</a></p>
                 <p>&copy; 2014 Company, Inc. &middot; <a href="#">Privacy</a> &middot; <a href="#">Terms</a></p>
             </footer>
-        </div>
     </div>';
 ?>
 
-    </span><br><br>
+   
   </body>
 </html>
