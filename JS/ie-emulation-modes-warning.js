@@ -51,9 +51,8 @@
 })();
 
 
-//JS forquizzes 
-//
 
+//JavaScript for quiz
 //Enter total number of questions:
 var totalquestions=10
 
@@ -98,36 +97,29 @@ window.location="results1.php"
 
 
 function showsolution(){
-var win2=window.open("","win2","width=200,height=350, scrollbars")
-win2.focus()
-win2.document.open()
-win2.document.write('<title>Solution</title>')
-win2.document.write('<body bgcolor="#FFFFCC">')
-win2.document.write('<center><h3>Solution to Quiz</h3></center>')
-win2.document.write('<center><font face="Arial">')
+var result=window.open("","result","width=200,height=350, scrollbars")
+result.focus()
+result.document.open()
+result.document.write('<title>Solution</title>')
+result.document.write('<body bgcolor="#FFFFCC">')
+result.document.write('<center><h3>Solution to Quiz</h3></center>')
+result.document.write('<center><font face="Arial">')
 for (i=1;i<=totalquestions;i++){
 for (temp=0;temp<incorrect.length;temp++){
 if (i==incorrect[temp])
 wrong=1
 }
 if (wrong==1){
-win2.document.write("Question "+i+"="+correctchoices[i].fontcolor("red")+"<br>")
+result.document.write("Question "+i+"="+correctchoices[i].fontcolor("red")+"<br>")
 wrong=0
 }
 else
-win2.document.write("Question "+i+"="+correctchoices[i].fontcolor("green")+"<br>")
+result.document.write("Question "+i+"="+correctchoices[i].fontcolor("green")+"<br>")
 }
-win2.document.write('</center></font>')
-win2.document.write("<h5>Note:The solutions in red are the ones to the questions you had incorrectly answered.</h5><p align='center'><small>")
-win2.document.close()
+result.document.write('</center></font>')
+result.document.write("<h5>Note:The solutions in red are the ones to the questions you had incorrectly answered.</h5><p align='center'><small>")
+result.document.close()
+
 }
-
-
-//to view solution in table JS 
-
-
-
-
-
 
 //  End of javascript-->

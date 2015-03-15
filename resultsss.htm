@@ -38,31 +38,6 @@
 
 <form method="POST"><div
   align="center"><center><p>
-
-<!--<script>
-var wrong=0
-for (i=0;i<=2;i++)
-document.result[i].value=""
-
-var results=document.cookie.split(";")
-for (j=0;j<=results.length-1;j++){
-if (results[j].charAt(1)=='q')
-parse=j
-
-}
-
-var incorrect=results[parse].split("=")
-incorrect=incorrect[1].split("/")
-if (incorrect[incorrect.length-1]=='b')
-incorrect=""
-document.result[0].value=totalquestions-incorrect.length+" out of "+totalquestions
-document.result[2].value=(totalquestions-incorrect.length)/totalquestions*100+"%"
-for (i=0;i<incorrect.length;i++)
-document.result[1].value+=incorrect[i]+", "
-
-
-</script>-->
-
 <input type="button" value="Take the quiz again" name="B1"
   onClick="history.go(-1)"> <input type="button" value="View solution" name="B2"
   onClick="showsolution()"></p>
