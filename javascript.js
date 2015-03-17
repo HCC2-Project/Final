@@ -13,7 +13,7 @@ image.onload = function()
   gradient.addColorStop(0.00, '#faa')
   gradient.addColorStop(0.66, '#f00')
   context.fillStyle = gradient
-  context.fillText(  "R  bin's Nest", 0, 0)
+  context.fillText("R  bin's Nest", 0, 0)
   context.strokeText("R  bin's Nest", 0, 0)
   context.drawImage(image, 64, 32)
 }
