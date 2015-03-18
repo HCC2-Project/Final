@@ -1,4 +1,5 @@
 <?php
+require_once 'header.php';
 echo ' <div class="col-xs-12 col-sm-8 col-md-6 col-sm-offset-2 col-md-offset-3">
                                         <form name="score" method="post" action="testScore.php" role="form">$error
                                           <fieldset>
@@ -36,7 +37,7 @@ $score = $_POST['score'];
 
 
 //Insert Query of SQL
-$query = mysql_query("update members set quiz_score='$score' where user='kev2'");
+$query = mysql_query("update members set quiz_score='$score' where user='$user'");
 echo "<br/><br/><span>Data Inserted successfully...!!</span>";
 
 
