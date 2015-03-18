@@ -9,11 +9,6 @@ echo ' <div class="col-xs-12 col-sm-8 col-md-6 col-sm-offset-2 col-md-offset-3">
                                             <div class="form-group">
                                               <input type="integer" name="score" id="score" value="enter score" class="form-control input-lg" placeholder="score">
                                             </div>
-                                            
-                                            
-                                              
-                                                 
-                                            
                                               <div class="col-xs-6 col-sm-6 col-md-6">
                                                 <input type="submit" name="submit" value="enter score" class="btn btn-lg btn-primary btn-block">
                                               </div>
