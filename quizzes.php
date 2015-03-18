@@ -113,7 +113,7 @@ line-height: 300%;
 <hr class="featurette-quizhr">
 
 <div class="qheader">
-9) As of January 2003, how much is Microsoft Chairman Bill Gatess net worth?</div>
+9) As of January 2003, how much is Microsoft Chairman Bill Gates\'s net worth?</div>
 <div class = "qselections">
 <input type = "radio" value = "a" name = "question9">a) 10 million US<br>
 <input type = "radio" value = "b" name = "question9">b) 20 billion US<br>
