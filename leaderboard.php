@@ -27,7 +27,7 @@
 <body>
 <div id="Wrapper">
 <div id="Header"><h1>WELCOME TO THE LEADERBOARD</h1></div>
-	<form method="post" action="write.php">
+	<form method="post" action="results1.php">
 		<input type="text" name="name" value="Name" /><br \>
 		<input type="text" name="score" value="Score" /><br \> <br \> <br \> <br \> 
 		<input type="submit" value="Submit Score to Leaderboards" />
