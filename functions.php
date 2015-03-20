@@ -58,5 +58,6 @@
       $row = $result->fetch_array(MYSQLI_ASSOC);
       echo stripslashes($row['text']) . "<br style='clear:left;'><br>";
     }
+    
   }
 ?>

@@ -62,6 +62,7 @@
                                 </li>
 
                                 <li><a href="quizzes.php">Quiz Test</a></li>
+                                <li><a href="leaderboard.php">Leaderboard</a></li>
                             </ul>
                             
                         </div>';
