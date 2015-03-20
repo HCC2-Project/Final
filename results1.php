@@ -6,11 +6,11 @@ echo '
 
 <table border="1" cellspacing="2" cellpadding="2">
   <tr>
-    <td width="100%"><form method="POST" name="result"><table border="0" width="100%" cellpadding="2">
+    <td width="100%"><form method="POST" name="result" action="results1.php"><table border="0" width="100%" cellpadding="2">
         </tr>
         <tr>
           <td height="5" font weight="strong" bgcolor="#009900"><strong><font color="black">Correct Answers:</font></strong></td>
-           <td height="5"><textarea name="T2" rows="1" cellpadding="1" cols="25" wrap="virtual"></textarea></td>
+           <td height="5"><input type ="text" name="T2" rows="1" cellpadding="1" cols="25" wrap="virtual"></textarea></td>
         </tr>
         <tr>
           <td height="5" font weight="strong" bgcolor="#FF0000"><strong><font color="black">Incorrect Answers:</font></strong></td>
@@ -18,9 +18,10 @@ echo '
         </tr>
         <tr>
           <td height="5" font weight="strong" bgcolor="#009900"><strong><font color="black">Score achieved in Percentage:</font></strong></td>
-          <td height="5"><textarea name="T2" rows="1" cellpadding="1" cols="25" wrap="virtual"></textarea></td>
+          <td height="5"><input type="text" name="T2" rows="1" cellpadding="1" cols="25" wrap="virtual"></textarea></td>
         </tr>
-      </table>
+       </table>
+       <input type="submit" name="submit" value="enter score" class="btn btn-lg btn-primary btn-block">
     </form>
     </td>
   </tr>
@@ -47,7 +48,7 @@ incorrect=incorrect[1].split("/")
 if (incorrect[incorrect.length-1]=="b")
 incorrect=""
 document.result[0].value=totalquestions-incorrect.length+" out of "+totalquestions
-document.result[2].value=(totalquestions-incorrect.length)/totalquestions*100+"%"
+document.result[2].value=(totalquestions-incorrect.length)/totalquestions*100
 for (i=0;i<incorrect.length;i++)
 document.result[1].value+=incorrect[i]+", "
 
@@ -59,6 +60,21 @@ document.result[1].value+=incorrect[i]+", "
   onClick="showsolution()"></p>
   </center></div>
 </form>';
+?>
+<?php
+$connection = mysql_connect("localhost", "root", "password"); // Establishing Connection with Server
+$db = mysql_select_db("robinsnest", $connection); // Selecting Database from Server
+if(isset($_POST['submit'])){ // Fetching variables of the form which travels in URL
+$score = $_POST['T2'];
+
+
+//Insert Query of SQL
+$query = mysql_query("update members set quiz_score='$score' where user='$user'");
+echo "<br/><br/><span>Data Inserted successfully...!!</span>";
+
+
+}
+mysql_close($connection); // Closing Connection with Server
 ?>
 </body>
 </html>
