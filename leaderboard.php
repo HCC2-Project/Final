@@ -21,7 +21,7 @@
            
 <head>
 <title>Leaderboard</title>
-<link rel ="stylesheet" type="text/css" href="leaderboard.css"/>
+<link rel ="stylesheet" type="text/css" href="carousel.css"/>
 <meta http-equiv="Content-Type" content="leaderboard/php;charset=utf-8" />
 </head>
 <body>
