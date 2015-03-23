@@ -2,7 +2,7 @@
   $dbhost  = 'localhost';    // Unlikely to require changing
   $dbname  = 'robinsnest';   // Modify these...
   $dbuser  = 'root';   // ...variables according
-  $dbpass  = 'password';   // ...to your installation
+  $dbpass  = '';   // ...to your installation
   $appname = "The History Of Computing"; // ...and preference
 
   $connection = new mysqli($dbhost, $dbuser, $dbpass, $dbname);
