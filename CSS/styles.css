@@ -86,3 +86,37 @@ li a:hover, .button:hover {
     color     :#006600;
 }
 
+.paragraph{
+    padding-left: 50px;
+    padding-right: 70px;
+    text-indent: 50px;
+    font-size: 20px;
+}
+h2{
+    font-family: Georgina;
+    color: #0066FF;
+}
+
+/* visited link */
+link:visited {
+    color: #0066FF;
+}
+
+/* mouse over link */
+link:hover {
+    color: #FF0000;
+}
+
+/* selected link */
+link:active {
+    color: #3366FF;
+}
+link:hover {
+    color:#FF0000;
+    background-color:transparent;
+    text-decoration:underline;
+}
+.fcomputer{
+  text-align: center;
+  padding-top: 20px;
+}
