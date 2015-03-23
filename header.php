@@ -26,7 +26,7 @@
           . "<link href='CSS/styles.css' rel='stylesheet' type='text/css'/>"
           . "<script src='JS/ie-emulation-modes-warning.js' type='text/javascript'></script>"
           . "<link rel='stylesheet' href='CSS/main.css' type='text/css'>";
-       "href='styles.css' type='text/css'>"                     .
+       
        "</head>"
           . "<body>"
        ."<script src='javascript.js'></script>";

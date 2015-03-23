@@ -9,23 +9,28 @@ require_once 'header.php';
  
     $num_results = mysql_num_rows($result);  
  
+    echo "<div class='container marketing'>
+        <div class='col-xs-12 col-sm-8 col-md-6 col-sm-offset-2 col-md-offset-3'>
+          <table class='gradienttable'>
+  <tr>
+    <th>Position</th>
+    <th>User Name</th>      
+    <th>Score</th>
+  </tr>";
+
     for($i = 1; $i <= $num_results; $i++)
     {
          $row = mysql_fetch_array($result);
-         echo "<table>
-  <tr>
-    <th>Position</th>
-    <th>User Name</th>		
-    <th>Score</th>
-  </tr>
-  <tr>
+         echo "<tr>
     <td>".$i."</td>
-    <td>".$row['user']."</td>		
+    <td>".$row['user']."</td>       
     <td>".$row['quiz_score']."</td>
-  </tr>
-  
-</table>";
+  </tr>";
     }
+
+echo "</table>"
+    . "</div>"
+        . "</div>";
     echo '<footer>
                 <p class="pull-right"><a href="#">Back to top</a></p>
                 <p>&copy; 2014 Company, Inc. &middot; <a href="#">Privacy</a> &middot; <a href="#">Terms</a></p>
