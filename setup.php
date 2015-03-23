@@ -13,6 +13,7 @@
   createTable('members',
               'user VARCHAR(16),
               pass VARCHAR(16),
+              quiz_score Integer(2),
               INDEX(user(6))');
 
   createTable('messages', 

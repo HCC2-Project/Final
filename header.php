@@ -20,13 +20,13 @@
           . "<meta name='viewport' content='width=device-width, initial-scale=1'>"
           . "<meta name='description' content=''>"
           . " <meta name='author' content=''>"
-          . "<link rel='icon' href='Icon/favicon.ico'>"
+          . "<link rel='icon' href='Icon/favicon.ico?' type='image/x-icon'>"
           . "<link href='CSS/bootstrap.min.css' rel='stylesheet' type='text/css'/>"
           . "<link href='CSS/carousel.css' rel='stylesheet' type='text/css'/>"
           . "<link href='CSS/styles.css' rel='stylesheet' type='text/css'/>"
           . "<script src='JS/ie-emulation-modes-warning.js' type='text/javascript'></script>"
           . "<link rel='stylesheet' href='CSS/main.css' type='text/css'>";
-       "href='styles.css' type='text/css'>"                     .
+       
        "</head>"
           . "<body>"
        ."<script src='javascript.js'></script>";
