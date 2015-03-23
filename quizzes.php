@@ -140,8 +140,7 @@ line-height: 300%;
 <input type = "button" value = "Reset" name = "B2" onClick = "document.myquiz.reset()"></div>
 </form>
 
-
-            <hr class="featurette-divider">
+      <hr class="featurette-divider">
 
             <!-- /END THE FEATURETTES -->
 
