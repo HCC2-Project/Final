@@ -9,10 +9,22 @@ require_once 'header.php';
  
     $num_results = mysql_num_rows($result);  
  
-    for($i = 0; $i < $num_results; $i++)
+    for($i = 1; $i <= $num_results; $i++)
     {
          $row = mysql_fetch_array($result);
-         echo $row['user'] . "\t" . $row['quiz_score'] . "<br/>";
+         echo "<table>
+  <tr>
+    <th>Position</th>
+    <th>User Name</th>		
+    <th>Score</th>
+  </tr>
+  <tr>
+    <td>".$i."</td>
+    <td>".$row['user']."</td>		
+    <td>".$row['quiz_score']."</td>
+  </tr>
+  
+</table>";
     }
     echo '<footer>
                 <p class="pull-right"><a href="#">Back to top</a></p>
