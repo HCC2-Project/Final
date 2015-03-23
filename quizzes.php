@@ -144,7 +144,6 @@ line-height: 300%;
 
             <!-- /END THE FEATURETTES -->
 
-
             <!-- FOOTER -->
             <footer>
                 <p class="pull-right"><a href="#">Back to top</a></p>
