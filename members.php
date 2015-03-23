@@ -4,7 +4,9 @@
   
 
   if (!$loggedin) die();
-         echo"<ul class='menus'>" .
+         echo"<div class='container marketing'>
+        <div class='col-xs-12 col-sm-8 col-md-6 col-sm-offset-2 col-md-offset-3'>"
+  . "<ul class='menus'>" .
          "<li><a href='members.php'>Members</a></li>"        .
          "<li><a href='messages.php'>Messages</a></li>"       .
          "<li><a href='profile.php'>Edit Profile</a></li>"    .
@@ -22,8 +24,16 @@
     showProfile($view);
     
     echo "<a class='button' href='messages.php?view=$view'>" .
-         "View $name messages</a><br><br>";
+         "View $name messages</a><br><br>"
+            . "</div>"
+            . "</div>"
+            . "</div>";
+     echo '<footer>
+                <p class="pull-right"><a href="#">Back to top</a></p>
+                <p>&copy; 2014 Company, Inc. &middot; <a href="#">Privacy</a> &middot; <a href="#">Terms</a></p>
+            </footer>';
     die("</div></body></html>");
+   
   }
 
   if (isset($_GET['add']))
@@ -66,11 +76,19 @@
     elseif ($t2)       { echo " &rarr; is following you";
       $follow = "recip"; }
 
-    if (!$t1) echo " [<a href='members.php?add="   .$row['user'] . "'>$follow</a>]";
-    else      echo " [<a href='members.php?remove=".$row['user'] . "'>drop</a>]";
-  }
+ if (!$t1) {
+        echo " [<a href='members.php?add=" . $row['user'] . "'>$follow</a>]";
+    } else {
+        echo " [<a href='members.php?remove=" . $row['user'] . "'>drop</a>]";
+    }
+}
+echo "</ul></div>"
+. "</div>"
+        . "</div>";
+       echo '<footer>
+                <p class="pull-right"><a href="#">Back to top</a></p>
+                <p>&copy; 2014 Company, Inc. &middot; <a href="#">Privacy</a> &middot; <a href="#">Terms</a></p>
+            </footer>';
 ?>
-
-    </ul></div>
   </body>
 </html>
