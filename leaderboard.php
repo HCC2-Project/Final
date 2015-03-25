@@ -1,7 +1,7 @@
 <?php
 require_once 'header.php';
     // Send variables for the MySQL database class.
-    $database = mysql_connect('localhost', 'root', 'password') or die('Could not connect: ' . mysql_error());
+    $database = mysql_connect('localhost', 'root', ' ') or die('Could not connect: ' . mysql_error());
     mysql_select_db('robinsnest') or die('Could not select database');
  
     $query = "SELECT * FROM `members` ORDER by `quiz_score` DESC LIMIT 10";
