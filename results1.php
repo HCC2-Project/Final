@@ -62,7 +62,7 @@ document.result[1].value+=incorrect[i]+", "
 </form>';
 ?>
 <?php
-$connection = mysql_connect("localhost", "root", " "); // Establishing Connection with Server
+$connection = mysql_connect("localhost", "root", "password"); // Establishing Connection with Server
 $db = mysql_select_db("robinsnest", $connection); // Selecting Database from Server
 if(isset($_POST['submit'])){ // Fetching variables of the form which travels in URL
 $score = $_POST['T2'];
