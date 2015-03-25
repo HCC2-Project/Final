@@ -13,6 +13,7 @@ font:bold 14px Arial;
 .qselections{
 font:normal 13px Arial;
 line-height: 300%;
+padding-left: 50px;
 }
 </style>
 <div class="container marketing">
