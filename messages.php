@@ -2,7 +2,9 @@
   require_once 'header.php';
 
   if (!$loggedin) die();
-          echo"<ul class='menus'>" .
+          echo"<div class='container marketing'>
+        <div class='col-xs-12 col-sm-8 col-md-6 col-sm-offset-2 col-md-offset-3'>".
+         "<ul class='menus'>" .
          "<li><a href='members.php'>Members</a></li>"        .
          "<li><a href='messages.php'>Messages</a></li>"       .
          "<li><a href='profile.php'>Edit Profile</a></li>"    .
@@ -81,9 +83,16 @@ _END;
 
   if (!$num) echo "<br><span class='info'>No messages yet</span><br><br>";
 
-  echo "<br><a class='button' href='messages.php?view=$view'>Refresh messages</a>";
+  echo "<br><a class='button' href='messages.php?view=$view'>Refresh messages</a>"
+          . "</div>"
+          . "</div>"
+          . "</div><br>";
+         echo '<footer>
+                <p class="pull-right"><a href="#">Back to top</a></p>
+                <p>&copy; 2014 Company, Inc. &middot; <a href="#">Privacy</a> &middot; <a href="#">Terms</a></p>
+            </footer>';
 ?>
 
-    </div><br>
+    
   </body>
 </html>

@@ -2,9 +2,11 @@
   require_once 'header.php';
 
   if (!$loggedin) die();
-      echo"<ul class='menus'>" .
+      echo"<div class='container marketing'>
+        <div class='col-xs-12 col-sm-8 col-md-6 col-sm-offset-2 col-md-offset-3'>" .
+         "<ul class='menus'>".
          "<li><a href='members.php'>Members</a></li>"         .
-         "<li><a href='testScore.php'>Test Score</a></li>"       .
+         "<li><a href='messages.php'>Messages</a></li>"       .
          "<li><a href='profile.php'>Edit Profile</a></li>"    .
          "<li><a href='logout.php'>Log out</a></li></ul><br>";
   echo "<div class='main'><h3>Your Profile</h3><br>";
@@ -87,10 +89,17 @@
     <h3>Enter or edit your details and/or upload an image</h3>
     <textarea name='text' cols='50' rows='3'>$text</textarea><br>
 _END;
+  echo "Image: <input type='file' name='image' size='14'><br>
+    <input type='submit' value='Save Profile'>
+    </form></div><br>"
+  . "</div>"
+  . "</div>";
+ echo '<footer>
+                <p class="pull-right"><a href="#">Back to top</a></p>
+                <p>&copy; 2014 Company, Inc. &middot; <a href="#">Privacy</a> &middot; <a href="#">Terms</a></p>
+            </footer>';
 ?>
 
-Image: <input type='file' name='image' size='14'><br>
-    <input type='submit' value='Save Profile'>
-    </form></div><br>
+
   </body>
 </html>
