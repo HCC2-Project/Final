@@ -1,7 +1,7 @@
 <?php // Example 26-9: members.php
   require_once 'header.php';
   
-  
+echo"<link href='CSS/styles.css' rel='stylesheet' type='text/css'/>"  ;
 
   if (!$loggedin) die();
          echo"<div class='container marketing'>
@@ -23,15 +23,9 @@
     echo "<h3>$name Profile</h3>";
     showProfile($view);
     
-    echo "<a class='button' href='messages.php?view=$view'>" .
-         "View $name messages</a><br><br>"
-            . "</div>"
-            . "</div>"
-            . "</div>";
-     echo '<footer>
-                <p class="pull-right"><a href="#">Back to top</a></p>
-                <p>&copy; 2014 Company, Inc. &middot; <a href="#">Privacy</a> &middot; <a href="#">Terms</a></p>
-            </footer>';
+    echo "<a class='button' href='messages.php?view=$view'> <br><br><br><br><br>View $name messages</a><br><br>";
+            echo'</div></div>';
+ 
     die("</div></body></html>");
    
   }
@@ -84,11 +78,9 @@
 }
 echo "</ul></div>"
 . "</div>"
-        . "</div>";
-       echo '<footer>
-                <p class="pull-right"><a href="#">Back to top</a></p>
-                <p>&copy; 2014 Company, Inc. &middot; <a href="#">Privacy</a> &middot; <a href="#">Terms</a></p>
-            </footer>';
+        . "</div>
+<hr class='featurette-divider'>";
+  
 ?>
   </body>
 </html>

@@ -9,14 +9,14 @@ require_once 'header.php';
  
     $num_results = mysql_num_rows($result);  
  
-    echo "<div class='container marketing'>
-        <div class='col-xs-12 col-sm-8 col-md-6 col-sm-offset-2 col-md-offset-3'>
-          <table class='gradienttable'>
+    echo '<div class="container marketing">
+        <div class="col-xs-12 col-sm-8 col-md-6 col-sm-offset-2 col-md-offset-3">
+          <table class="gradienttable">
   <tr>
     <th>Position</th>
     <th>User Name</th>      
     <th>Score</th>
-  </tr>";
+  </tr>';
 
     for($i = 1; $i <= $num_results; $i++)
     {
@@ -28,12 +28,13 @@ require_once 'header.php';
   </tr>";
     }
 
-echo "</table>"
-    . "</div>"
-        . "</div>";
-    echo '<footer>
+echo "</table>
+        </div>
+            </div>";
+echo"<hr class='featurette-divider'>";
+    echo '            <footer>
                 <p class="pull-right"><a href="#">Back to top</a></p>
-                <p>&copy; 2014 Company, Inc. &middot; <a href="#">Privacy</a> &middot; <a href="#">Terms</a></p>
+                <p>2015 Students-NCI, &middot; <a href="#">Privacy</a> &middot; <a href="#">Terms</a></p>
             </footer>';
 ?>
 </body>
