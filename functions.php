@@ -1,8 +1,8 @@
 <?php // Example 26-1: functions.php
-  $dbhost  = 'localhost';    // Unlikely to require changing
-  $dbname  = 'robinsnest';   // Modify these...
-  $dbuser  = 'root';   // ...variables according
-  $dbpass  = 'password';   // ...to your installation
+  $dbhost  = "localhost";    // Unlikely to require changing
+  $dbname  = "robinsnest";   // Modify these...
+  $dbuser  = "root";   // ...variables according
+  $dbpass  = "password";   // ...to your installation
   $appname = "The History Of Computing"; // ...and preference
 
   $connection = new mysqli($dbhost, $dbuser, $dbpass, $dbname);

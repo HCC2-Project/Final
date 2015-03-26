@@ -9,10 +9,13 @@ echo'
 <style>
 .qheader{
 font:bold 14px Arial;
+font-size: 16px;
 }
 .qselections{
 font:normal 13px Arial;
 line-height: 300%;
+padding-left: 50px;
+font-size: 16px;
 }
 </style>
 <div class="container marketing">
@@ -136,7 +139,7 @@ line-height: 300%;
 
 <form>
 <div align = "center">
-<input type = "button" value = "Grade Me!" name = "B1" onClick = "gradeit()">
+<input type = "button" value = "Get Score!" name = "B1" onClick = "gradeit()">
 <input type = "button" value = "Reset" name = "B2" onClick = "document.myquiz.reset()"></div>
 </form>
 
