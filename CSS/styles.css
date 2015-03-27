@@ -105,10 +105,11 @@ li a:hover, .button:hover {
   top: 0;
   right: 0;
   left: 0;
-  
 }
+
+
 .menus li, .button {
-    display           :block;
+    display: block;
     padding           :4px 6px;
     border            :2px solid black;
     background        :#ddd;
@@ -174,7 +175,7 @@ link:hover {
 @media (min-width: 768px) {
 
 .menus li, .button {
-    display           :inline;
+    display: inline;
     padding-right     :0px;
     padding-left      :0px;
     border            :2px solid black;
@@ -186,11 +187,12 @@ link:hover {
     -webkit-box-shadow:2px 2px 2px #888;
     box-shadow        :2px 2px 2px #888;
 }
+
 }
 
 @media (min-width: 992px) {
     .menus li, .button {
-    display        :block;
+    display: inline;
     padding-right     :0px;
     padding-left      :0px;
     border            :2px solid black;
@@ -202,4 +204,5 @@ link:hover {
     -webkit-box-shadow:2px 2px 2px #888;
     box-shadow        :2px 2px 2px #888;
 }
+
 }

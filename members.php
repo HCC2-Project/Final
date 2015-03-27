@@ -23,7 +23,7 @@ echo"<link href='CSS/styles.css' rel='stylesheet' type='text/css'/>"  ;
     echo "<h3>$name Profile</h3>";
     showProfile($view);
     
-    echo "<a class='button' href='messages.php?view=$view'> <br><br><br><br><br>View $name messages</a><br><br>";
+    echo "<a class='button' href='messages.php?view=$view'> <br><br><br><br>View $name messages</a><br><br>";
             echo'</div></div>';
  
     die("</div></body></html>");
