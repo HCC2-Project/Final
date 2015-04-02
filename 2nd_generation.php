@@ -16,7 +16,9 @@ The transistor was far superior to the vacuum tube, allowing computers to become
 more energy-efficient and more reliable than their first-generation predecessors. Though the transistor still generated a 
 great deal of heat that subjected the computer to damage, it was a vast improvement over the vacuum tube. Second-generation 
 computers still relied on punched cards for input and printouts for output.<br/> <br/>
-Second-generation computers moved from cryptic binary machine language to symbolic, or assembly, languages, which allowed programmers to specify instructions in words. High-level programming languages were also being developed at this time, such as early versions of COBOL and FORTRAN. 
+Second-generation computers moved from cryptic binary machine language to symbolic, or assembly, languages, 
+which allowed programmers to specify instructions in words. High-level programming languages were also being developed at this time, 
+such as early versions of COBOL and FORTRAN. 
 These were also the first computers that stored their instructions in their memory, which moved from a magnetic drum to magnetic core technology.
 <div class ="link"> <a href="http://www.webopedia.com/DidYouKnow/Hardware_Software/FiveGenerations.asp">Read more</a></div> 
  </p>
