@@ -94,6 +94,20 @@ _END;
     </form></div><br>"
   . "</div>";
  echo '</div>';
+ $database = mysql_connect('localhost', 'root', 'password') or die('Could not connect: ' . mysql_error());
+    mysql_select_db('robinsnest') or die('Could not select database');
+ 
+    $query = "select user
+     , quiz_score
+     ,(select count(quiz_score)+1 
+           from members
+          where quiz_score > X.quiz_score ) AS POS
+  from members X
+order by quiz_score desc;";
+    $rank = mysql_query($query) or die('Query failed: ' . mysql_error());
+    $num_results = mysql_num_rows($rank);
+    echo '<div>"Your rank is" '
+    . $num_results .'</div>';
 ?>
 
 
