@@ -9,7 +9,7 @@
 echo '<h2> Second Generation (1956-1963) Transistors</h2>
  <div class ="paragraph">    
  <p>
-
+Content for Question 2.
 Transistors replaced vacuum tubes and ushered in the second generation of computers. 
 The transistor was invented in 1947 but did not see widespread use in computers until the late 1950s. 
 The transistor was far superior to the vacuum tube, allowing computers to become smaller, faster, cheaper, 
