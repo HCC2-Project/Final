@@ -83,10 +83,10 @@
   }
 
   showProfile($user);
- echo"<br>";
+ echo"";
   echo <<<_END
     <form method='post' action='profile.php' enctype='multipart/form-data'>
-    <h3>Enter or edit your details and/or upload an image</h3>
+    <br><br><br><br>Enter or edit your details and/or upload an image
     <textarea name='text' cols='50' rows='3'>$text</textarea><br>
 _END;
   echo "Image: <input type='file' name='image' size='14'><br>

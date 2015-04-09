@@ -34,12 +34,12 @@
       $name2 = "$view's";
     }
 
-    echo "<div class='main'><h3>$name1 Messages</h3>";
+    echo "<div class='main'><h3>$name1 Messages</h3><br>";
     
     showProfile($view);
     echo"<br>";
     echo <<<_END
-      <form method='post' action='messages.php?view=$view'><br><br><br>
+      <form id= method='post' action='messages.php?view=$view'><br><br><br>
       Type here to leave a message:<br>
       <textarea name='text' cols='40' rows='3'></textarea><br>
       Public<input type='radio' name='pm' value='0' checked='checked'>&nbsp;&nbsp;

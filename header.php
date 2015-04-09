@@ -101,7 +101,7 @@
                         <div class="carousel-caption">';
                                 if ($loggedin)
   {
-                            echo'<p><a href="logout.php" class="btn btn-lg btn-primary" role="button">Logout</a></p>';
+                            
   }
   else {
                             echo'<p><a href="login.php" class="btn btn-lg btn-primary" role="button">Login</a></p>';
