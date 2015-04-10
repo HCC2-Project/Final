@@ -93,7 +93,7 @@ _END;
     <input type='submit' value='Save Profile'>
     </form></div><br>"
   . "</div>";
- echo '</div>';
+ echo '</div>'; 
 ?>
 
 

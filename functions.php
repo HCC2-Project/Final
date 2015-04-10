@@ -8,7 +8,7 @@
   $connection = new mysqli($dbhost, $dbuser, $dbpass, $dbname);
   if ($connection->connect_error) die($connection->connect_error);
   function alterTable(){
-      queryMysql("ALTER TABLE members
+      queryMysql("ALTER TABLE leaderboard
                   ADD quiz_score Integer(2)");
   }
   
