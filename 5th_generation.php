@@ -9,17 +9,19 @@
 require_once 'header.php';
 echo '<h2> Fifth Generation (Present and Beyond) Artificial Intelligence</h2>
  <div class ="paragraph">    
- <p>
+ <p>  </p>
+   
+ <div class ="fcomputer"> </div>
+    
 
-Fifth generation computing devices, based on artificial intelligence, are still in development, though there are some
-applications, such as voice recognition, that are being used today. 
-The use of parallel processing and superconductors is helping to make artificial intelligence a reality. Quantum 
-computation and molecular and nanotechnology will radically change the face of computers in years to come. 
-The goal of fifth-generation computing is to develop devices that respond to natural language input and are capable 
-of learning and self-organization.
-<div class ="link"> <a href="http://www.webopedia.com/DidYouKnow/Hardware_Software/FiveGenerations.asp">Read more</a></div> 
+<!-- START THE FEATURETTES -->
+            <hr class="featurette-divider">
 
-<h3>Content for Question 5.</h3>
+            <div class="row featurette">
+                <div class="col-md-7">
+                    <h2 class="featurette-heading">Figure 1: <span class="text-muted">Fifth Computer.</span></h2>
+                    <p class="lead">  
+ <h3>Content for Question 5.</h3>
 Introduction
 An arithmetic logic unit (ALU) is a digital circuit used to perform arithmetic and logic operations. It represents 
 the fundamental building block of the central processing unit (CPU) of a computer. Modern CPUs contain very powerful 
@@ -27,8 +29,22 @@ and complex ALUs. In addition to ALUs, modern CPUs contain a control unit (CU). 
 performed by one or more ALUs, which load data from input registers. A register is a small amount of storage 
 available as part of a CPU. The control unit tells the ALU what operation to perform on that data and the ALU stores 
 the result in an output register. The control unit moves the data between these registers, the ALU and memory.
+</p>
+                </div>
+                <div class="col-md-5">
+                    <img class="featurette-image img-responsive" src="Images/Artificial Intelligence.jpg" style="width: 400px; height: 300px;">
+                </div>
+            </div>
 
-How an ALU works
+            <hr class="featurette-divider">
+            <div class="row featurette">
+                <div class="col-md-5">
+                   <img class="featurette-image img-responsive" src="Images/Artificial Intelligence.jpg" style="width: 400px; height: 300px;">
+                </div>
+                <div class="col-md-7">
+                    <h2 class="featurette-heading">Figure 2: <span class="text-muted">Fifth Computer.</span></h2>
+                    <p class="lead">
+                   How an ALU works
 An ALU performs basic arithmetic and logic operations. Examples of arithmetic operations are addition, subtraction, 
 multiplication, and division. Examples of logic operations are comparisons of values such as NOT, AND, and OR.
 All information in a computer is stored and manipulated in the form of binary numbers, i.e. 0 and 1. Transistor 
@@ -46,13 +62,33 @@ gate.
 The AND gate results in a 1 only if both the first and second input are 1s. The figure below shows the logic of the 
 AND gate.
 The XOR gate results in a 0 if both the inputs are 0 or if both are 1. Otherwise, the result is a 1. The figure below
-shows the logic of the XOR gate.
+shows the logic of the XOR gate.  
+                    </p>
+                </div>
+            </div>
 
+            <hr class="featurette-divider">
+            <div class="row featurette">
+                <div class="col-md-7">
+                    <h2 class="featurette-heading">Figure 3: <span class="text-muted">Fifth Computer.</span></h2>
+                    <p class="lead"> 
+                Fifth generation computing devices, based on artificial intelligence, are still in development, though there are some
+applications, such as voice recognition, that are being used today. 
+The use of parallel processing and superconductors is helping to make artificial intelligence a reality. Quantum 
+computation and molecular and nanotechnology will radically change the face of computers in years to come. 
+The goal of fifth-generation computing is to develop devices that respond to natural language input and are capable 
+of learning and self-organization.
+<div class ="link"> <a href="http://www.webopedia.com/DidYouKnow/Hardware_Software/FiveGenerations.asp">Read more</a></div>  
 </p>
-   
-   <h2> Image of Fifth Computer</h2>
- <div class ="fcomputer"><img src="Images/Artificial Intelligence.jpg" style="width: 600px; height: 400px;"></div>
-    
+                </div>
+                <div class="col-md-5">
+                    <img class="featurette-image img-responsive" src="Images/Artificial Intelligence.jpg" style="width: 400px; height: 300px;">
+                </div>
+            </div>
+
+            <hr class="featurette-divider">
+            <!-- /END THE FEATURETTES -->
+
 <br/> <br/>
 <!-- FOOTER -->
             <footer>
