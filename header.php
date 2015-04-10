@@ -96,7 +96,7 @@
             </ol>
             <div class="carousel-inner" role="listbox">
                 <div class="item active">
-                    <img src="http://4.bp.blogspot.com/-Hq8goCGjhUY/Ueapox54g8I/AAAAAAAAAGE/HMgwwT-SeZA/s320/1.png" alt="First slide">
+                    <img src="header1.jpg" alt="First slide">
                     <div class="container">
                         <div class="carousel-caption">';
                                 if ($loggedin)
@@ -111,7 +111,7 @@
                 </div>
 
                 <div class="item">
-                    <img src="http://s7.computerhistory.org/is/image/CHM/500004505-03-01?$re-zoomed$" alt="Second slide">
+                    <img src="header4.jpg" alt="Second slide">
                     <div class="container">
                         <div class="carousel-caption">
                             <p><a href="quizzes.php" class="btn btn-lg btn-primary" role="button">Quizzes</a></p>
@@ -120,7 +120,7 @@
                 </div>                
 
                 <div class="item">
-                    <img src="http://it-history.net/images/A_wall_of_historic_computers.jpg" alt="Third slide">
+                    <img src="header1.jpg" alt="Third slide">
                     <div class="container">
                         <div class="carousel-caption">
                             <p><a href="signup.php" class="btn btn-lg btn-primary" role="button">Sign Up</a></p>
@@ -129,7 +129,7 @@
                 </div>
 
                 <div class="item">
-                    <img src="http://www.tnmoc.org/sites/default/files/fi_large.jpg" alt="Fourth slide">
+                    <img src="header4.jpg" alt="Fourth slide">
                     <div class="container">
                         <div class="carousel-caption">
                             <p><a class="btn btn-lg btn-primary" href="#" role="button">Browse gallery</a></p>

@@ -9,17 +9,38 @@
 
  echo '<h2> First Generation (1940-1956) Vacuum Tubes</h2>
  <div class ="paragraph">    
- <p>
+ <p>  </p>
+ 
+ <div class ="fcomputer"> </div>
+   
+  <!-- START THE FEATURETTES -->
+            <hr class="featurette-divider">
+
+            <div class="row featurette">
+                <div class="col-md-7">
+                    <h2 class="featurette-heading">Figure 1: <span class="text-muted">First Computer.</span></h2>
+                    <p class="lead">  
  Content for Question 1.
  Introduction <br/>
- 
  The calculating engines of English mathematician Charles Babbage (1791-1871) are among the most celebrated icons in 
  the prehistory of computing. Babbage’s Difference Engine No.1 was the first successful automatic calculator and 
  remains one of the finest examples of precision engineering of the time. Babbage is sometimes referred to as 
  "father of computing." The International Charles Babbage Society (later the Charles Babbage Institute) took his name 
- to honor his intellectual contributions and their relation to modern computers.
- 
- Biographical Note <br/>
+ to honor his intellectual contributions and their relation to modern computers.</p>
+                </div>
+                <div class="col-md-5">
+                    <img class="featurette-image img-responsive" src="Images/UNIVAC_computer.jpg" style="width: 400px; height: 300px;">
+                </div>
+            </div>
+
+            <hr class="featurette-divider">
+            <div class="row featurette">
+                <div class="col-md-5">
+                   <img class="featurette-image img-responsive" src="Images/UNIVAC_computer.jpg" style="width: 400px; height: 300px;">
+                </div>
+                <div class="col-md-7">
+                    <h2 class="featurette-heading">Figure 2: <span class="text-muted">First Computer.</span></h2>
+                    <p class="lead"> Biographical Note <br/>
  
  Charles Babbage was born in London on December 26, 1791, the son of Benjamin Babbage, a London banker. As a youth 
  Babbage was his own instructor in algebra, of which he was passionately fond, and was well read in the continental 
@@ -39,9 +60,15 @@
  Input was based on punched cards and paper tape, and output was displayed on printouts. The UNIVAC and ENIAC 
  computers are examples of first-generation computing devices. 
  The UNIVAC was the first commercial computer delivered to a business client, the U.S. Census Bureau in 1951.
- <div class ="link"> <a href="http://www.webopedia.com/DidYouKnow/Hardware_Software/FiveGenerations.asp">Read more</a></div> 
+ <div class ="link"> <a href="http://www.webopedia.com/DidYouKnow/Hardware_Software/FiveGenerations.asp">Read more</a></div></p>
+                </div>
+            </div>
 
-Content for Question3.
+            <hr class="featurette-divider">
+            <div class="row featurette">
+                <div class="col-md-7">
+                    <h2 class="featurette-heading">Figure 3: <span class="text-muted">First Computer.</span></h2>
+                    <p class="lead"> Content for Question3.
 Joseph-Marie Jacquard was not the inventor of the programmable loom, as many people imagine, actually he created an 
 attachment to the loom, which played a very important role not only in the textile industry, but also in development 
 of other programmable machines, such as computers, for example the Analytical Engine of Charles Babbage.
@@ -65,12 +92,15 @@ carries and guides the warp thread so that the weft will either lie above or bel
 lowered threads is what creates the pattern. Each hook can be connected via the harness to a number of 
 threads, allowing more than one repeat of a pattern. For example, a loom with a 500-hook head might have 
 four threads connected to each hook, resulting in a fabric that is 2000 warp ends wide with four repeats of 
-the weave going across.
-</p>
-   
-   <h2> Image of First Computer</h2>
- <div class ="fcomputer"><img src="Images/UNIVAC_computer.jpg" style="width: 700px; height: 400px;"></div>
-   
+the weave going across. </p>
+                </div>
+                <div class="col-md-5">
+                    <img class="featurette-image img-responsive" src="Images/UNIVAC_computer.jpg" style="width: 400px; height: 300px;">
+                </div>
+            </div>
+
+            <hr class="featurette-divider">
+            <!-- /END THE FEATURETTES -->
 <br/> <br/>
 <!-- FOOTER -->
             <footer>
