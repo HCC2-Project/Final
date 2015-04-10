@@ -1,8 +1,8 @@
 
-//Enter total number of questions:
+//total number of questions:
 var totalquestions=10
 
-//Enter the solutions corresponding to each question:
+//the solutions corresponding to each question:
 var correctchoices=new Array()
 correctchoices[1]='c' //question 1 solution
 correctchoices[2]='a' //question 2 solution, and so on.
@@ -42,27 +42,3 @@ window.location="results.htm"
 }
 
 
-function showsolution(){
-var results=window.open("","results","width=200,height=350, scrollbars")
-results.focus()
-results.document.open()
-results.document.write('<title>Solution</title>')
-results.document.write('<body bgcolor="#FFFFCC">')
-results.document.write('<center><h3>Solution to Quiz</h3></center>')
-results.document.write('<center><font face="Arial">')
-for (i=1;i<=totalquestions;i++){
-for (temp=0;temp<incorrect.length;temp++){
-if (i==incorrect[temp])
-wrong=1
-}
-if (wrong==1){
-results.document.write("Question "+i+"="+correctchoices[i].fontcolor("red")+"<br>")
-wrong=0
-}
-else
-results.document.write("Question "+i+"="+correctchoices[i].fontcolor("green")+"<br>")
-}
-results.document.write('</center></font>')
-results.document.write("<h5>Note:The solutions in red are the ones to the questions you had incorrectly answered.</h5><p align='center'><small>")
-results.document.close()
-}
