@@ -29,10 +29,10 @@ font-size: 16px;
 <div class="qheader">
 1)  Who was known as the Father of Computers?</div>
 <div class="qselections">
-<input type="radio" value="a" name="question1"> a)Blasie Pascal<br>
-<input type="radio" value="b" name="question1"> b)Joseph Jacquard<br>
-<input type="radio" value="c" name="question1"> c)Charles Babbage<br>
-<input type="radio" value="d" name="question1"> d)Herman Hollerith<br>
+<input type="radio" value="a" name="question1"> a) Blasie Pascal<br>
+<input type="radio" value="b" name="question1"> b) Joseph Jacquard<br>
+<input type="radio" value="c" name="question1"> c) Charles Babbage<br>
+<input type="radio" value="d" name="question1"> d) Herman Hollerith<br>
 </div>
 
 <hr class="featurette-quizhr">
@@ -40,10 +40,10 @@ font-size: 16px;
 <div class="qheader">
 2)The Second Generation of computers used this to control operations:</div>
 <div class="qselections">
-<input type="radio" value="a" name="question2"> a)transistors<br>
-<input type="radio" value="b" name="question2"> b)microchips<br>
-<input type="radio" value="c" name="question2"> c)integrated circuits<br>
-<input type="radio" value="d" name="question2"> d)vacuum tubes<br>
+<input type="radio" value="a" name="question2"> a) transistors<br>
+<input type="radio" value="b" name="question2"> b) microchips<br>
+<input type="radio" value="c" name="question2"> c) integrated circuits<br>
+<input type="radio" value="d" name="question2"> d) vacuum tubes<br>
 </div>
 
 <hr class="featurette-quizhr">
@@ -137,12 +137,12 @@ font-size: 16px;
 <div class="qheader">
 
 <hr class="featurette-divider">
-11)  Who was known as the Father of Computers?</div>
+11) To which generation of computers does Valve computer belongs?</div>
 <div class="qselections">
-<input type="radio" value="a" name="question11"> a)Blasie Pascal<br>
-<input type="radio" value="b" name="question11"> b)Joseph Jacquard<br>
-<input type="radio" value="c" name="question11"> c)Charles Babbage<br>
-<input type="radio" value="d" name="question11"> d)Herman Hollerith<br>
+<input type="radio" value="a" name="question11"> a) First generation computers<br>
+<input type="radio" value="b" name="question11"> b) Second generation computers<br>
+<input type="radio" value="c" name="question11"> c) Fifth generation computers<br>
+<input type="radio" value="d" name="question11"> d) Fourth generation computers<br>
 </div>
 
 <hr class="featurette-quizhr">
@@ -150,10 +150,10 @@ font-size: 16px;
 <div class="qheader">
 12)The Second Generation of computers used this to control operations:</div>
 <div class="qselections">
-<input type="radio" value="a" name="question12"> a)transistors<br>
-<input type="radio" value="b" name="question12"> b)microchips<br>
-<input type="radio" value="c" name="question12"> c)integrated circuits<br>
-<input type="radio" value="d" name="question12"> d)vacuum tubes<br>
+<input type="radio" value="a" name="question12"> a) transistors<br>
+<input type="radio" value="b" name="question12"> b) microchips<br>
+<input type="radio" value="c" name="question12"> c) integrated circuits<br>
+<input type="radio" value="d" name="question12"> d) vacuum tubes<br>
 </div>
 
 <hr class="featurette-quizhr">
@@ -249,10 +249,10 @@ font-size: 16px;
 <div class="qheader">
 21)  Who was known as the Father of Computers?</div>
 <div class="qselections">
-<input type="radio" value="a" name="question21"> a)Blasie Pascal<br>
-<input type="radio" value="b" name="question21"> b)Joseph Jacquard<br>
-<input type="radio" value="c" name="question21"> c)Charles Babbage<br>
-<input type="radio" value="d" name="question21"> d)Herman Hollerith<br>
+<input type="radio" value="a" name="question21"> a) Blasie Pascal<br>
+<input type="radio" value="b" name="question21"> b) Joseph Jacquard<br>
+<input type="radio" value="c" name="question21"> c) Charles Babbage<br>
+<input type="radio" value="d" name="question21"> d) Herman Hollerith<br>
 </div>
 
 <hr class="featurette-quizhr">
@@ -260,10 +260,10 @@ font-size: 16px;
 <div class="qheader">
 22)The Second Generation of computers used this to control operations:</div>
 <div class="qselections">
-<input type="radio" value="a" name="question22"> a)transistors<br>
-<input type="radio" value="b" name="question22"> b)microchips<br>
-<input type="radio" value="c" name="question22"> c)integrated circuits<br>
-<input type="radio" value="d" name="question22"> d)vacuum tubes<br>
+<input type="radio" value="a" name="question22"> a) transistors<br>
+<input type="radio" value="b" name="question22"> b) microchips<br>
+<input type="radio" value="c" name="question22"> c) integrated circuits<br>
+<input type="radio" value="d" name="question22"> d) vacuum tubes<br>
 </div>
 
 <hr class="featurette-quizhr">
