@@ -42,7 +42,7 @@
  Astronomical Society) in 1820. It was about this time that Babbage first acquired the interest in calculating 
  machinery that became his consuming passion for the remainder of his life.
  The first computers used vacuum tubes for circuitry and magnetic drums for memory, and were often enormous, taking 
- up entire rooms. 
+ up entire rooms. Valve Computer Belongs to First Generation computers.
  They were very expensive to operate and in addition to using a great deal of electricity, generated a lot of heat, 
  which was often the cause of malfunctions.
  First generation computers relied on machine language, the lowest-level programming language understood by computers, 
