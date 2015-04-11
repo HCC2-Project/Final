@@ -8,39 +8,29 @@
   require_once 'header.php';
 
  echo '<h2> First Generation (1940-1956) Vacuum Tubes</h2>
- <div class ="paragraph">    
- <p>  </p>
  
- <div class ="fcomputer"> </div>
    
   <!-- START THE FEATURETTES -->
-            <hr class="featurette-divider">
-
+        <hr class="featurette-divider">
             <div class="row featurette">
-                <div class="col-md-7">
-                    <h2 class="featurette-heading">Figure 1: <span class="text-muted">First Computer.</span></h2>
+                <div class="col-md-7">                   
+                    <span class="text-muted"></span>
                     <p class="lead">  
- Content for Question 1.
- Introduction <br/>
- The calculating engines of English mathematician Charles Babbage (1791-1871) are among the most celebrated icons in 
+
+ 
+    The calculating engines of English mathematician Charles Babbage (1791-1871) are among the most celebrated icons in 
  the prehistory of computing. Babbage’s Difference Engine No.1 was the first successful automatic calculator and 
  remains one of the finest examples of precision engineering of the time. Babbage is sometimes referred to as 
  "father of computing." The International Charles Babbage Society (later the Charles Babbage Institute) took his name 
  to honor his intellectual contributions and their relation to modern computers.</p>
-                </div>
-                <div class="col-md-5">
-                    <img class="featurette-image img-responsive" src="Images/UNIVAC_computer.jpg" style="width: 400px; height: 300px;">
+                         
+                    <img class="featurette-image img-responsive1" src="Images/UNIVAC_computer.jpg" style="width: 400px; height: 300px;">
+                <br>Figure 1: Sample of First Computer                
                 </div>
             </div>
-
-            <hr class="featurette-divider">
-            <div class="row featurette">
-                <div class="col-md-5">
-                   <img class="featurette-image img-responsive" src="Images/UNIVAC_computer.jpg" style="width: 400px; height: 300px;">
-                </div>
+ 
                 <div class="col-md-7">
-                    <h2 class="featurette-heading">Figure 2: <span class="text-muted">First Computer.</span></h2>
-                    <p class="lead"> Biographical Note <br/>
+                   <br> <p class="lead"> Biographical Note <br/>
  
  Charles Babbage was born in London on December 26, 1791, the son of Benjamin Babbage, a London banker. As a youth 
  Babbage was his own instructor in algebra, of which he was passionately fond, and was well read in the continental 
@@ -67,8 +57,8 @@
             <hr class="featurette-divider">
             <div class="row featurette">
                 <div class="col-md-7">
-                    <h2 class="featurette-heading">Figure 3: <span class="text-muted">First Computer.</span></h2>
-                    <p class="lead"> Content for Question3.
+                    <h2 class="featurette-heading">   <span class="text-muted">  </span></h2>
+                    <p class="lead">
 Joseph-Marie Jacquard was not the inventor of the programmable loom, as many people imagine, actually he created an 
 attachment to the loom, which played a very important role not only in the textile industry, but also in development 
 of other programmable machines, such as computers, for example the Analytical Engine of Charles Babbage.

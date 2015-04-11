@@ -16,15 +16,18 @@ require_once 'header.php';
     <th>Position</th>
     <th>User Name</th>      
     <th>Score</th>
+
   </tr>';
 
     for($i = 1; $i <= $num_results; $i++)
     {
          $row = mysql_fetch_array($result);
+    
          echo "<tr>
     <td>".$i."</td>
     <td>".$row['user']."</td>       
     <td>".$row['quiz_score']."</td>
+   
   </tr>";
     }
 
