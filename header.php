@@ -6,7 +6,7 @@
 
   if (isset($_SESSION['user']))
   {
-    $user     = $_SESSION['user'];
+    $user    = $_SESSION['user'];
     $loggedin = TRUE;
     $userstr  = " ($user)";
   }

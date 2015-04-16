@@ -5,6 +5,7 @@
  * and open the template in the editor.
  */
 require_once 'header.php';
+        
 echo'
 <style>
 .qheader{
@@ -139,7 +140,7 @@ font-size: 16px;
 
 <form>
 <div align = "center">
-<input type = "button" value = "Get Score!" name = "B1" onClick = "gradeit()">
+<input type = "button" value = "Get Score!" name = "B1" onClick = "gradeit();">
 <input type = "button" value = "Reset" name = "B2" onClick = "document.myquiz.reset()"></div>
 </form>
 

@@ -16,7 +16,9 @@
               quiz_score Integer(2),
               INDEX(user(6))');
   
-  createTable('topthree','user VARCHAR(16), quiz_score Integer(2)');
+  createTable('topthree','user VARCHAR(16), quiz_score Integer(2),rank Integer(2)');
+ 
+  
 
   createTable('messages', 
               'id INT UNSIGNED AUTO_INCREMENT PRIMARY KEY,

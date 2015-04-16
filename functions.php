@@ -10,6 +10,7 @@
   function alterTable(){
       queryMysql("ALTER TABLE leaderboard
                   ADD quiz_score Integer(2)");
+      
   }
   
   function createTable($name, $query)
@@ -60,4 +61,5 @@
     }
     
   }
+  
 ?>
