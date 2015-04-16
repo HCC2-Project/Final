@@ -70,6 +70,9 @@ $score = $_POST['T2'];
 
 //Insert Query of SQL
 $query = mysql_query("update members set quiz_score='$score' where user='$user'");
+echo "<br/><br/><span>Data Inserted successfully...!!</span>";
+
+
 }
 mysql_close($connection); // Closing Connection with Server
 ?>

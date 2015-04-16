@@ -1,4 +1,11 @@
-<?php // Example 26-1: functions.php
+<?php 
+/*
+     * @author Robin Nixon
+     * @Date 10/03/2015
+       @Source http://lpmj.net/4thedition/ 
+     * 
+     */
+// Example 26-1: functions.php
   $dbhost  = "localhost";    // Unlikely to require changing
   $dbname  = "robinsnest";   // Modify these...
   $dbuser  = "root";   // ...variables according

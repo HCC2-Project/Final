@@ -1,4 +1,11 @@
 <?php
+/*
+     * @Author.....
+     * @Date 10/03/2015
+       @Source http://www.w3schools.com/php/php_mysql_select.asp
+     * 
+     */
+
 require_once 'header.php';
     // Send variables for the MySQL database class.
     $database = mysql_connect('localhost', 'root', 'password') or die('Could not connect: ' . mysql_error());

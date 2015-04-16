@@ -1,8 +1,10 @@
 
    
          <?php 
-    /*@Date 10/03/2015
-    @Reference http://lpmj.net/4thedition/ 
+    /*
+     * @author Robin Nixon
+     * @Date 10/03/2015
+       @Source http://lpmj.net/4thedition/ 
      * 
      */
 // Example 26-6: checkuser.php

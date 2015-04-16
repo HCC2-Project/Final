@@ -1,4 +1,11 @@
-<?php // Example 26-9: members.php
+<?php 
+/*
+     * @author Robin Nixon
+     * @Date 10/03/2015
+       @Source http://lpmj.net/4thedition/ 
+     * 
+     */
+// Example 26-9: members.php
   require_once 'header.php';
   
 echo"<link href='CSS/styles.css' rel='stylesheet' type='text/css'/>"  ;

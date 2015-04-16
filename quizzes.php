@@ -21,7 +21,7 @@ font-size: 16px;
 </style>
 <div class="container marketing">
 
-<h2>WelCome to History of Computers Quizzes</h2>
+<h2>WelCome to History of Computers Quiz</h2>
 
 <form method="POST" name="myquiz">
 

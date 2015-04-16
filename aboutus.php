@@ -1,8 +1,5 @@
 <?php
-    /*@Date 10/03/2015
-    @Reference http://lpmj.net/4thedition/ 
-     * 
-     */
+    
  require_once 'header.php';
 /* 
  * To change this license header, choose License Headers in Project Properties.

@@ -1,4 +1,11 @@
-<?php // Example 26-2: header.php
+<?php 
+/*
+     * @author Robin Nixon
+     * @Date 10/03/2015
+       @Source http://lpmj.net/4thedition/ 
+     * 
+     */
+// Example 26-2: header.php
   session_start();
    require_once 'functions.php';
    
