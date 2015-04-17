@@ -60,20 +60,21 @@ document.result[1].value+=incorrect[i]+", "
   onClick="showsolution()"></p>
   </center></div>
 </form>';
-?>
-<?php
+
 $connection = mysql_connect("localhost", "root", "password"); // Establishing Connection with Server
 $db = mysql_select_db("robinsnest", $connection); // Selecting Database from Server
 if(isset($_POST['submit'])){ // Fetching variables of the form which travels in URL
 $score = $_POST['T2'];
 
-
 //Insert Query of SQL
 $query = mysql_query("update members set quiz_score='$score' where user='$user'");
 echo "<br/><br/><span>Data Inserted successfully...!!</span>";
-
-
 }
+else {
+echo"You must be logged in!";
+} 
+
+    
 mysql_close($connection); // Closing Connection with Server
 ?>
 </body>
