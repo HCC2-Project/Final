@@ -31,16 +31,6 @@ echo '
 <form method="POST"><div
   align="center"><center><p>
 
-<br>
-<input type="button" value="Take the quiz again" name="B1"
-  onClick="history.go(-1)"> <input type="button" value="View solution" name="B2"
-  onClick="showsolution()"></p>
-  </center></div>
-</form>
-
-
-
-
 <script>
 var wrong=0
 for (i=0;i<=2;i++)
@@ -50,7 +40,9 @@ var results=document.cookie.split(";")
 for (j=0;j<=results.length-1;j++){
 if (results[j].charAt(1)=="q")
 parse=j
+
 }
+
 var incorrect=results[parse].split("=")
 incorrect=incorrect[1].split("/")
 if (incorrect[incorrect.length-1]=="b")
@@ -59,16 +51,23 @@ document.result[0].value=totalquestions-incorrect.length+" out of "+totalquestio
 document.result[2].value=(totalquestions-incorrect.length)/totalquestions*100
 for (i=0;i<incorrect.length;i++)
 document.result[1].value+=incorrect[i]+", "
-</script>';
 
+
+</script>
+<br>
+<input type="button" value="Take the quiz again" name="B1"
+  onClick="history.go(-1)"> <input type="button" value="View solution" name="B2"
+  onClick="showsolution()"></p>
+  </center></div>
+</form>';
 
 
 $connection = mysql_connect("localhost", "root", "password"); // Establishing Connection with Server
 $db = mysql_select_db("robinsnest", $connection); // Selecting Database from Server
-if(isset($_POST['submit'])){ // Fetching variables of the form which travels in URL
-    if (isset($_SESSION['user'])){
+if(isset($_POST["submit"])){ // Fetching variables of the form which travels in URL
+    if (isset($_SESSION["user"])){
 //Insert Query of SQL
-        $score = $_POST['T2'];
+        $score = $_POST["T2"];
 $query = mysql_query("update members set quiz_score='$score' where user='$user'");
 echo "<br/><br/><span>Data Inserted successfully...!!</span>";
 }
@@ -76,7 +75,7 @@ else{
     echo"You must be logged in to update your score in leaderboard!";  
 }
 }
-   
+
 mysql_close($connection); // Closing Connection with Server
 ?>
 </body>
