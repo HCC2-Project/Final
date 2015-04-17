@@ -1,4 +1,11 @@
-<?php // Example 26-12: logout.php
+<?php
+/*
+     * @author Robin Nixon
+     * @Date 10/03/2015
+       @Source http://lpmj.net/4thedition/ 
+     * 
+     */
+// Example 26-12: logout.php
   require_once 'header.php';
 
   if (isset($_SESSION['user']))

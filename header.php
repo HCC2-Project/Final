@@ -1,4 +1,11 @@
-<?php // Example 26-2: header.php
+<?php 
+/*
+     * @author Robin Nixon
+     * @Date 10/03/2015
+       @Source http://lpmj.net/4thedition/ 
+     * 
+     */
+// Example 26-2: header.php
   session_start();
    require_once 'functions.php';
    
@@ -6,30 +13,31 @@
 
   if (isset($_SESSION['user']))
   {
-    $user     = $_SESSION['user'];
+    $user    = $_SESSION['user'];
     $loggedin = TRUE;
     $userstr  = " ($user)";
   }
   else $loggedin = FALSE;
 
-   
+
   echo "<!DOCTYPE html>\n<html><head>";
         echo "<title>$appname$userstr</title><link rel='stylesheet" .
             "<meta charset='utf-8'>"
           . "<meta http-equiv='X-UA-Compatible' content='IE=edge'>"
           . "<meta name='viewport' content='width=device-width, initial-scale=1'>"
           . "<meta name='description' content=''>"
-          . " <meta name='author' content=''>"
+          . "<meta name='author' content=''>"
           . "<link rel='icon' href='Icon/favicon.ico?' type='image/x-icon'>"
           . "<link href='CSS/bootstrap.min.css' rel='stylesheet' type='text/css'/>"
-          . "<link href='CSS/carousel.css' rel='stylesheet' type='text/css'/>"
+          . "<link href='CSS/responsivestylesheet.css' rel='stylesheet' type='text/css'/>"
           . "<link href='CSS/styles.css' rel='stylesheet' type='text/css'/>"
           . "<script src='JS/ie-emulation-modes-warning.js' type='text/javascript'></script>"
+         . "<script src='JS/javascript.js' type='text/javascript'></script>"
+          . "<script src='JS/quizconfig.js' type='text/javascript'></script>"  
           . "<link rel='stylesheet' href='CSS/main.css' type='text/css'>";
-       
        "</head>"
-          . "<body>"
-       ."<script src='javascript.js'></script>";
+          . "<body>";
+       
   
       echo ' <div class="navbar-wrapper">
             <div class="container">
@@ -96,12 +104,12 @@
             </ol>
             <div class="carousel-inner" role="listbox">
                 <div class="item active">
-                    <img src="http://4.bp.blogspot.com/-Hq8goCGjhUY/Ueapox54g8I/AAAAAAAAAGE/HMgwwT-SeZA/s320/1.png" alt="First slide">
+                    <img src="header1.jpg" alt="First slide">
                     <div class="container">
                         <div class="carousel-caption">';
                                 if ($loggedin)
   {
-                            echo'<p><a href="logout.php" class="btn btn-lg btn-primary" role="button">Logout</a></p>';
+                            
   }
   else {
                             echo'<p><a href="login.php" class="btn btn-lg btn-primary" role="button">Login</a></p>';
@@ -111,7 +119,7 @@
                 </div>
 
                 <div class="item">
-                    <img src="http://s7.computerhistory.org/is/image/CHM/500004505-03-01?$re-zoomed$" alt="Second slide">
+                    <img src="header4.jpg" alt="Second slide">
                     <div class="container">
                         <div class="carousel-caption">
                             <p><a href="quizzes.php" class="btn btn-lg btn-primary" role="button">Quizzes</a></p>
@@ -120,7 +128,7 @@
                 </div>                
 
                 <div class="item">
-                    <img src="http://it-history.net/images/A_wall_of_historic_computers.jpg" alt="Third slide">
+                    <img src="header1.jpg" alt="Third slide">
                     <div class="container">
                         <div class="carousel-caption">
                             <p><a href="signup.php" class="btn btn-lg btn-primary" role="button">Sign Up</a></p>
@@ -129,7 +137,7 @@
                 </div>
 
                 <div class="item">
-                    <img src="http://www.tnmoc.org/sites/default/files/fi_large.jpg" alt="Fourth slide">
+                    <img src="header4.jpg" alt="Fourth slide">
                     <div class="container">
                         <div class="carousel-caption">
                             <p><a class="btn btn-lg btn-primary" href="#" role="button">Browse gallery</a></p>

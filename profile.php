@@ -1,4 +1,11 @@
-<?php // Example 26-8: profile.php
+<?php
+/*
+     * @author Robin Nixon
+     * @Date 10/03/2015
+       @Source http://lpmj.net/4thedition/ 
+     * 
+     */
+// Example 26-8: profile.php
   require_once 'header.php';
 
   if (!$loggedin) die();
@@ -83,21 +90,17 @@
   }
 
   showProfile($user);
- echo"<br>";
+ echo"";
   echo <<<_END
     <form method='post' action='profile.php' enctype='multipart/form-data'>
-    <h3>Enter or edit your details and/or upload an image</h3>
+    <br><br><br><br>Enter or edit your details and/or upload an image
     <textarea name='text' cols='50' rows='3'>$text</textarea><br>
 _END;
   echo "Image: <input type='file' name='image' size='14'><br>
     <input type='submit' value='Save Profile'>
     </form></div><br>"
-  . "</div>"
   . "</div>";
- echo '<footer>
-                <p class="pull-right"><a href="#">Back to top</a></p>
-                <p>&copy; 2014 Company, Inc. &middot; <a href="#">Privacy</a> &middot; <a href="#">Terms</a></p>
-            </footer>';
+ echo '</div>'; 
 ?>
 
 

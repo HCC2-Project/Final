@@ -1,4 +1,10 @@
 <?php // 
+/*
+     * @author Robin Nixon
+     * @Date 10/03/2015
+       @Source http://lpmj.net/4thedition/ 
+     * 
+     */
   require_once 'header.php';  
   $error = $user = $pass = "";
 
@@ -66,7 +72,7 @@
             <!-- FOOTER -->
             <footer>
                 <p class="pull-right"><a href="#">Back to top</a></p>
-                <p>&copy; 2014 Company, Inc. &middot; <a href="#">Privacy</a> &middot; <a href="#">Terms</a></p>
+                <p>2015 Students-NCI, &middot; <a href="#">Privacy</a> &middot; <a href="#">Terms</a></p>
             </footer>';
     
 _END;

@@ -1,4 +1,11 @@
-<?php // Example 26-11: messages.php
+<?php 
+/*
+     * @author Robin Nixon
+     * @Date 10/03/2015
+       @Source http://lpmj.net/4thedition/ 
+     * 
+     */
+// Example 26-11: messages.php
   require_once 'header.php';
 
   if (!$loggedin) die();
@@ -34,12 +41,12 @@
       $name2 = "$view's";
     }
 
-    echo "<div class='main'><h3>$name1 Messages</h3>";
+    echo "<div class='main'><h3>$name1 Messages</h3><br>";
     
     showProfile($view);
     echo"<br>";
     echo <<<_END
-      <form method='post' action='messages.php?view=$view'>
+      <form id= method='post' action='messages.php?view=$view'><br><br><br>
       Type here to leave a message:<br>
       <textarea name='text' cols='40' rows='3'></textarea><br>
       Public<input type='radio' name='pm' value='0' checked='checked'>&nbsp;&nbsp;
@@ -89,7 +96,7 @@ _END;
           . "</div><br>";
          echo '<footer>
                 <p class="pull-right"><a href="#">Back to top</a></p>
-                <p>&copy; 2014 Company, Inc. &middot; <a href="#">Privacy</a> &middot; <a href="#">Terms</a></p>
+                <p>2015 Students-NCI, &middot; <a href="#">Privacy</a> &middot; <a href="#">Terms</a></p>
             </footer>';
 ?>
 

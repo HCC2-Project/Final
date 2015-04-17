@@ -1,4 +1,11 @@
-<?php // Example 26-5: signup.php
+<?php 
+/*
+     * @author Robin Nixon
+     * @Date 10/03/2015
+       @Source http://lpmj.net/4thedition/ 
+     * 
+     */
+// Example 26-5: signup.php
   require_once 'header.php';
 
   echo <<<_END
@@ -62,7 +69,7 @@ _END;
         $error = "That username already exists<br><br>";
       else
       {
-        queryMysql("INSERT INTO members VALUES('$user', '$pass','0')");
+        queryMysql("INSERT INTO members VALUES('0','$user', '$pass','0')");
         die("<h4>Account created</h4>Please Log in.<br><br>");
       }
     }
@@ -106,7 +113,7 @@ _END;
             <!-- FOOTER -->
             <footer>
                 <p class="pull-right"><a href="#">Back to top</a></p>
-                <p>&copy; 2014 Company, Inc. &middot; <a href="#">Privacy</a> &middot; <a href="#">Terms</a></p>
+                <p>2015 Students-NCI, &middot; <a href="#">Privacy</a> &middot; <a href="#">Terms</a></p>
             </footer>';
     
 _END;

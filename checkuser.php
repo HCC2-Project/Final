@@ -1,4 +1,13 @@
-<?php // Example 26-6: checkuser.php
+
+   
+         <?php 
+    /*
+     * @author Robin Nixon
+     * @Date 10/03/2015
+       @Source http://lpmj.net/4thedition/ 
+     * 
+     */
+// Example 26-6: checkuser.php
   require_once 'functions.php';
 
   if (isset($_POST['user']))

@@ -1,15 +1,23 @@
-<?php // Example 26-1: functions.php
-  $dbhost  = 'localhost';    // Unlikely to require changing
-  $dbname  = 'robinsnest';   // Modify these...
-  $dbuser  = 'root';   // ...variables according
-  $dbpass  = 'password';   // ...to your installation
+<?php 
+/*
+     * @author Robin Nixon
+     * @Date 10/03/2015
+       @Source http://lpmj.net/4thedition/ 
+     * 
+     */
+// Example 26-1: functions.php
+  $dbhost  = "localhost";    // Unlikely to require changing
+  $dbname  = "robinsnest";   // Modify these...
+  $dbuser  = "root";   // ...variables according
+  $dbpass  = "password";   // ...to your installation
   $appname = "The History Of Computing"; // ...and preference
 
   $connection = new mysqli($dbhost, $dbuser, $dbpass, $dbname);
   if ($connection->connect_error) die($connection->connect_error);
   function alterTable(){
-      queryMysql("ALTER TABLE members
+      queryMysql("ALTER TABLE leaderboard
                   ADD quiz_score Integer(2)");
+      
   }
   
   function createTable($name, $query)
@@ -60,4 +68,5 @@
     }
     
   }
+  
 ?>
