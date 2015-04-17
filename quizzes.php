@@ -148,45 +148,45 @@ font-size: 16px;
 <hr class="featurette-quizhr">
 
 <div class="qheader">
-12)The Second Generation of computers used this to control operations:</div>
+12)The fifth generation of computers represents a unification of which separate areas of research?</div>
 <div class="qselections">
-<input type="radio" value="a" name="question12"> a) transistors<br>
-<input type="radio" value="b" name="question12"> b) microchips<br>
-<input type="radio" value="c" name="question12"> c) integrated circuits<br>
-<input type="radio" value="d" name="question12"> d) vacuum tubes<br>
+<input type="radio" value="a" name="question12"> a) knowledge-based expert systems<br>
+<input type="radio" value="b" name="question12"> b) very high-level programming languages<br>
+<input type="radio" value="c" name="question12"> c) decentralised computing<br>
+<input type="radio" value="d" name="question12"> d) all of the above<br>
 </div>
 
 <hr class="featurette-quizhr">
 
 <div class="qheader">
-13)Joseph Jacquard used to control he operations of his loom?</div>
+13)In what year was the first generation computer invented?</div>
 <div class="qselections">
-<input type="radio" value="a" name="question13"> a) Vacuum tubes<br>
-<input type="radio" value="b" name="question13"> b) electricity<br>
-<input type="radio" value="c" name="question13"> c) transistors<br>
-<input type="radio" value="d" name="question13"> d) punched cards<br>
+<input type="radio" value="a" name="question13"> a) 1975<br>
+<input type="radio" value="b" name="question13"> b) 1945<br>
+<input type="radio" value="c" name="question13"> c) 1940<br>
+<input type="radio" value="d" name="question13"> d) none of the above<br>
 </div>
 
 <hr class="featurette-quizhr">
 
 <div class="qheader">
-14) The Fourth Generation of computers used this to control operations:</div>
+14) Who invented the vaccum tube first generation computer?</div>
 <div class="qselections">
-<input type="radio" value="a" name="question14"> a) integrated circuits<br>
-<input type="radio" value="b" name="question14"> b) transistors<br>
-<input type="radio" value="c" name="question14"> c) microchips<br>
-<input type="radio" value="d" name="question14"> d) vacuum tubes<br>
+<input type="radio" value="a" name="question14"> a) Joseph Jacquard<br>
+<input type="radio" value="b" name="question14"> b) Blasie Pascal<br>
+<input type="radio" value="c" name="question14"> c) By engineer Lee<br>
+<input type="radio" value="d" name="question14"> d) Herman Hollerith<br>
 </div>
 
 <hr class="featurette-quizhr">
 
 <div class="qheader">
-15) The arithmetic/logic unit of the computer:</div>
+15) In what year was the transistors invented?</div>
 <div class="qselections">
-<input type="radio" value="a" name="question15"> a) can add numbers<br>
-<input type="radio" value="b" name="question15"> b) can compare numbers<br>
-<input type="radio" value="c" name="question15"> c) is part of the central processing unit<br>
-<input type="radio" value="d" name="question15"> d) all of the above<br>
+<input type="radio" value="a" name="question15"> a) 1970<br>
+<input type="radio" value="b" name="question15"> b) 1965<br>
+<input type="radio" value="c" name="question15"> c) 1949<br>
+<input type="radio" value="d" name="question15"> d) 1956<br>
 </div>
 
 <hr class="featurette-quizhr">
@@ -236,11 +236,11 @@ font-size: 16px;
 <hr class="featurette-quizhr">
 
 <div class = "qheader">
-20) The first electronic computer was called?</div>
+20) In what year was the integrated circuits invented?</div>
 <div class = "qselections">
-<input type = "radio" value = "a" name = "question20"> a) Univac<br>
-<input type = "radio" value = "b" name = "question20"> b) ENIAC<br>
-<input type = "radio" value = "c" name = "question20"> c) Apple lle<br>
+<input type = "radio" value = "a" name = "question20"> a) 1974<br>
+<input type = "radio" value = "b" name = "question20"> b) 1964<br>
+<input type = "radio" value = "c" name = "question20"> c) 1967<br>
 <input type = "radio" value = "d" name = "question20"> d) none of the above<br>
 </div>
 
