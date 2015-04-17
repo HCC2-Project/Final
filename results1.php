@@ -56,8 +56,7 @@ document.result[1].value+=incorrect[i]+", "
 </script>
 <br>
 <input type="button" value="Take the quiz again" name="B1"
-  onClick="history.go(-1)"> <input type="button" value="View solution" name="B2"
-  onClick="showsolution()"></p>
+  onClick="history"></p>
   </center></div>
 </form>';
 ?>
