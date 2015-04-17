@@ -17,7 +17,8 @@
   require_once 'functions.php';
 
   createTable('members',
-              'user VARCHAR(16),
+             'id INT AUTO_INCREMENT PRIMARY KEY,
+              user VARCHAR(16),
               pass VARCHAR(16),
               quiz_score Integer(2),
               INDEX(user(6))');
