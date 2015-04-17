@@ -320,6 +320,7 @@ font-size: 16px;
     </div>';
 
 ?>
+
 <script>
     var actualchoices = new Array()
     document.cookie = "ready=yes"
