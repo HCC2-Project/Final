@@ -59,7 +59,13 @@ per chip). There were also developments of multi-layered printed circuits.
                 <div class="col-md-7">
                     <h2 class="featurette-heading">Figure 3: <span class="text-muted">Third Computer.</span></h2>
                     <p class="lead"> 
-                  fghefherheheyhjetyjtjtujtuejteu  
+                  Jack Kilby, an engineer with Texas Instruments, developed the integrated circuit (IC) in 1958 wich 
+                  defined the third generation computers. The IC combined three electronic components onto a small 
+                  silicon disc, which was made from quartz. Scientists later managed to fit even more components on a
+                  single chip, called a semiconductor. As a result, computers became ever smaller as more components 
+                  were squeezed onto the chip. Another third-generation development included the use of an operating 
+                  system that allowed machines to run many different programs at once with a central program that 
+                  monitored and coordinated the computer s memory.  
 </p>
                 </div>
                 <div class="col-md-5">
