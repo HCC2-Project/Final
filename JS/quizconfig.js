@@ -1,6 +1,6 @@
 
 //total number of questions:
-var totalquestions=10
+var totalquestions=25
 
 //the solutions corresponding to each question:
 var correctchoices=new Array()
@@ -14,6 +14,21 @@ correctchoices[7]='b'
 correctchoices[8]='b'
 correctchoices[9]='c'
 correctchoices[10]='b'
+correctchoices[11]='a'
+correctchoices[12]='d' 
+correctchoices[13]='c'
+correctchoices[14]='c'
+correctchoices[15]='d'
+correctchoices[16]='c'
+correctchoices[17]='b'
+correctchoices[18]='b'
+correctchoices[19]='c'
+correctchoices[20]='b'
+correctchoices[21]='c' 
+correctchoices[22]='a' 
+correctchoices[23]='c'
+correctchoices[24]='c'
+correctchoices[25]='d'
 
 function gradeit(){
 var incorrect=null
