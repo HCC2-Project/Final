@@ -1,6 +1,6 @@
 
 //total number of questions:
-var totalquestions=10
+var totalquestions=25
 
 //the solutions corresponding to each question:
 var correctchoices=new Array()
@@ -14,6 +14,21 @@ correctchoices[7]='b'
 correctchoices[8]='b'
 correctchoices[9]='c'
 correctchoices[10]='b'
+correctchoices[11]='a'
+correctchoices[12]='d' 
+correctchoices[13]='c'
+correctchoices[14]='c'
+correctchoices[15]='d'
+correctchoices[16]='c'
+correctchoices[17]='b'
+correctchoices[18]='b'
+correctchoices[19]='c'
+correctchoices[20]='b'
+correctchoices[21]='c' 
+correctchoices[22]='a' 
+correctchoices[23]='c'
+correctchoices[24]='c'
+correctchoices[25]='d'
 
 function gradeit(){
 var incorrect=null
@@ -38,7 +53,33 @@ document.cookie='q='+incorrect
 if (document.cookie=='')
 alert("Your browser does not accept cookies. Please adjust your browser settings.")
 else
-window.location="results.htm"
+window.location="results1.php"
 }
 
+
+function showsolution(){
+var result=window.open("","result","width=200,height=350, scrollbars")
+result.focus()
+result.document.open()
+result.document.write('<title>Solution</title>')
+result.document.write('<body bgcolor="#FFFFCC">')
+result.document.write('<center><h3>Solution to Quiz</h3></center>')
+result.document.write('<center><font face="Arial">')
+for (i=1;i<=totalquestions;i++){
+for (temp=0;temp<incorrect.length;temp++){
+if (i==incorrect[temp])
+wrong=1
+}
+if (wrong==1){
+result.document.write("Question "+i+"="+correctchoices[i].fontcolor("red")+"<br>")
+wrong=0
+}
+else
+result.document.write("Question "+i+"="+correctchoices[i].fontcolor("green")+"<br>")
+}
+result.document.write('</center></font>')
+result.document.write("<h5>Note:The solutions in red are the ones to the questions you had incorrectly answered.</h5><p align='center'><small>")
+result.document.close()
+
+}
 

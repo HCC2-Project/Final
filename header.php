@@ -19,7 +19,7 @@
   }
   else $loggedin = FALSE;
 
-   
+
   echo "<!DOCTYPE html>\n<html><head>";
         echo "<title>$appname$userstr</title><link rel='stylesheet" .
             "<meta charset='utf-8'>"
@@ -32,11 +32,12 @@
           . "<link href='CSS/responsivestylesheet.css' rel='stylesheet' type='text/css'/>"
           . "<link href='CSS/styles.css' rel='stylesheet' type='text/css'/>"
           . "<script src='JS/ie-emulation-modes-warning.js' type='text/javascript'></script>"
+         . "<script src='JS/javascript.js' type='text/javascript'></script>"
+          . "<script src='JS/quizconfig.js' type='text/javascript'></script>"  
           . "<link rel='stylesheet' href='CSS/main.css' type='text/css'>";
-       
        "</head>"
-          . "<body>"
-       ."<script src='javascript.js'></script>";
+          . "<body>";
+       
   
       echo ' <div class="navbar-wrapper">
             <div class="container">

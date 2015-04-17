@@ -29,6 +29,15 @@ and complex ALUs. In addition to ALUs, modern CPUs contain a control unit (CU). 
 performed by one or more ALUs, which load data from input registers. A register is a small amount of storage 
 available as part of a CPU. The control unit tells the ALU what operation to perform on that data and the ALU stores 
 the result in an output register. The control unit moves the data between these registers, the ALU and memory.
+This generation of computers represents a unification of four separate areas of research: 
+- knowledge-based expert systems 
+- very high-level programming languages 
+- decentralised computing 
+- very large-scale integration technology (VLSI).
+Computers of this generation make use of parallel processing and they are capable of performing multiple, simultaneous instructions using more than one microprocessing chip. 
+
+
+
 </p>
                 </div>
                 <div class="col-md-5">
