@@ -1,35 +1,36 @@
 <?php
 require_once 'header.php';
-echo '
-<p align="center"><strong><font face="Arial"><big> Quiz Results</font></strong></strong></p>
-<div align="center"><div>
+echo '<p align="center"><strong><font face="Arial">
 
-<table border="1" cellspacing="2" cellpadding="2">
+<script src="quizconfig.js">
+</script>
+
+<div align="center"><div>
+<h2> Quiz Results</h2></font></strong></p>
+<table border="0" cellspacing="0" cellpadding="0">
   <tr>
-    <td width="100%"><form method="POST" name="result" action="results1.php"><table border="0" width="100%" cellpadding="2">
+    <td width="100%"><form method="POST" name="result"><table border="0" width="100%" cellpadding="0" height="116">
+        <tr>
+          <td height="25" bgcolor="#009900"><strong><font face="Arial">Correct Answers:</font></strong></td>
+          <td height="25"><p><textarea name="T2" rows="2" cols="40" wrap="virtual"></textarea></td>
         </tr>
         <tr>
-          <td height="5" font weight="strong" bgcolor="#009900"><strong><font color="black">Correct Answers:</font></strong></td>
-           <td height="5"><input type ="text" name="T2" rows="1" cellpadding="1" cols="25" wrap="virtual"></textarea></td>
+          <td height="17" bgcolor="#FF0000"><strong><font face="Arial">Incorrect Answers:</font></strong></td>
+          <td height="17"><p><textarea name="T2" rows="3" cols="40" wrap="virtual"></textarea></td>
         </tr>
         <tr>
-          <td height="5" font weight="strong" bgcolor="#FF0000"><strong><font color="black">Incorrect Answers:</font></strong></td>
-          <td height="5"><textarea name="T2" rows="1" padding="1" cols="25" wrap="virtual"></textarea></td>
+          <td height="25" bgcolor="#009900"><strong><font face="Arial">Grade in percentage:</font></strong></td>
+          <td height="25"><textarea name="T2" rows="2" cols="40" wrap="virtual"></textarea></td>
         </tr>
-        <tr>
-          <td height="5" font weight="strong" bgcolor="#009900"><strong><font color="black">Score achieved in Percentage:</font></strong></td>
-          <td height="5"><input type="text" name="T2" rows="1" cellpadding="1" cols="25" wrap="virtual"></textarea></td>
-        </tr>
-       </table>
-       <input type="submit" name="submit" value="enter score" class="btn btn-lg btn-primary btn-block">
+      </table>
     </form>
     </td>
   </tr>
 </table>
-</center></div>
+</div>
 
 <form method="POST"><div
-  align="center"><center><p>
+  align="center"><p>
 
 <script>
 var wrong=0
@@ -48,13 +49,13 @@ incorrect=incorrect[1].split("/")
 if (incorrect[incorrect.length-1]=="b")
 incorrect=""
 document.result[0].value=totalquestions-incorrect.length+" out of "+totalquestions
-document.result[2].value=(totalquestions-incorrect.length)/totalquestions*100
+document.result[2].value=(totalquestions-incorrect.length)/totalquestions*100+"%"
 for (i=0;i<incorrect.length;i++)
 document.result[1].value+=incorrect[i]+", "
 
 
 </script>
-<br>
+
 <input type="button" value="Take the quiz again" name="B1"
   onClick="history.go(-1)"> <input type="button" value="View solution" name="B2"
   onClick="showsolution()"></p>
