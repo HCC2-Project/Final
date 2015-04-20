@@ -11,7 +11,29 @@
 echo"<link href='CSS/styles.css' rel='stylesheet' type='text/css'/>"  ;
 
   if (!$loggedin) die();
-  /*
+
+  
+         echo"<div class='container marketing'>
+        <div class='col-xs-12 col-sm-8 col-md-6 col-sm-offset-2 col-md-offset-3'>";
+    echo "<div class='main'>";
+  echo "<center><ul class='menus'>" .
+         "<li><a href='members.php'>Members</a></li>"        .
+         "<li><a href='messages.php'>Messages</a></li>"       .
+         "<li><a href='profile.php'>Edit Profile</a></li>"    .
+         "<li><a href='logout.php'>Log out</a></li></ul></center><br>";
+         
+  
+
+  if (isset($_GET['view']))
+  {
+    $view = sanitizeString($_GET['view']);
+    
+    if ($view == $user) $name = "Your";
+    else                $name = "$view's";
+    
+    echo "<h2>$name Profile</h2>";
+    showProfile($view);
+      /*
 Getting individual rank of user from leaderboard
 @author 
 @date 17/04/2015
@@ -30,14 +52,13 @@ Getting individual rank of user from leaderboard
         ) AS rank
 FROM    members uo
   WHERE user =  '$user';";
-
+echo "<a class='button' href='messages.php?view=$view'> View $name messages</a><br><br>";
     $result = mysql_query($query) or die('Query failed: ' . mysql_error());
 
     $num_results = mysql_num_rows($result);  
 
     while($row = mysql_fetch_array($result)){
-?>    <div class="container marketing">
-       <div class='col-xs-12 col-sm-8 col-md-6 col-sm-offset-2 col-md-offset-3'>
+?>    
         <h2><?php echo $row['user']." You are ranked number  ".$row['rank']; ?></h2>
     
 
@@ -67,31 +88,9 @@ FROM    members uo
             echo '<div class="videoWrapper"><iframe  src="//giphy.com/embed/OTPuTLxwOyN1K?html5=true" width="480" height="190" frameBorder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe></div>';
 
   }
-  echo '</div>'
-  . '</div><br/>';
+  echo '<br/>';
     }
-  
-         echo"<div class='container marketing'>
-        <div class='col-xs-12 col-sm-8 col-md-6 col-sm-offset-2 col-md-offset-3'>"
     
-  . "<ul class='menus'>" .
-         "<li><a href='members.php'>Members</a></li>"        .
-         "<li><a href='messages.php'>Messages</a></li>"       .
-         "<li><a href='profile.php'>Edit Profile</a></li>"    .
-         "<li><a href='logout.php'>Log out</a></li></ul><br>";
-  echo "<div class='main'>";
-
-  if (isset($_GET['view']))
-  {
-    $view = sanitizeString($_GET['view']);
-    
-    if ($view == $user) $name = "Your";
-    else                $name = "$view's";
-    
-    echo "<h3>$name Profile</h3>";
-    showProfile($view);
-    
-    echo "<a class='button' href='messages.php?view=$view'> View $name messages</a><br><br>";
             echo'</div></div>';
  
     die("</div></body></html>");
