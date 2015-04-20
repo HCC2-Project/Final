@@ -15,6 +15,7 @@ echo"<link href='CSS/styles.css' rel='stylesheet' type='text/css'/>"  ;
   
          echo"<div class='container marketing'>
         <div class='col-xs-12 col-sm-8 col-md-6 col-sm-offset-2 col-md-offset-3'>";
+         
     echo "<div class='main'>";
   echo "<center><ul class='menus'>" .
          "<li><a href='members.php'>Members</a></li>"        .
@@ -32,7 +33,7 @@ echo"<link href='CSS/styles.css' rel='stylesheet' type='text/css'/>"  ;
     else                $name = "$view's";
     
     echo "<h2>$name Profile</h2>";
-    showProfile($view);
+   
       /*
 Getting individual rank of user from leaderboard
 @author 
@@ -52,7 +53,7 @@ Getting individual rank of user from leaderboard
         ) AS rank
 FROM    members uo
   WHERE user =  '$user';";
-echo "<a class='button' href='messages.php?view=$view'> View $name messages</a><br><br>";
+
     $result = mysql_query($query) or die('Query failed: ' . mysql_error());
 
     $num_results = mysql_num_rows($result);  
@@ -92,7 +93,7 @@ echo "<a class='button' href='messages.php?view=$view'> View $name messages</a><
     }
     
             echo'</div></div>';
- 
+  showProfile($view);
     die("</div></body></html>");
    
   }
