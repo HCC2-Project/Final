@@ -51,7 +51,7 @@ h2{
 
 /* Carousel base class */
 .carousel {
-    height: 300px;
+    height: 300zpx;
     margin-bottom: 60px;
 }
 /* Since positioning the image, we need to help out the caption */

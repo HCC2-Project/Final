@@ -24,7 +24,7 @@ Getting individual rank of user from leaderboard
   $query = "
       SELECT  uo.*, 
         (
-        SELECT  COUNT(*)
+        SELECT  COUNT(DISTINCT ui.quiz_score)
         FROM    members ui
         WHERE   (ui.quiz_score, ui.id) >= (uo.quiz_score, uo.id)
         ) AS rank
@@ -37,22 +37,39 @@ FROM    members uo
 
     while($row = mysql_fetch_array($result)){
 ?>    <div class="container marketing">
-   
-        <h3><?php echo $row['user']." You are ranked number - ".$row['rank']; ?></h3>
+       <div class='col-xs-12 col-sm-8 col-md-6 col-sm-offset-2 col-md-offset-3'>
+        <h2><?php echo $row['user']." You are ranked number  ".$row['rank']; ?></h2>
     
-</div>
+
 
   <?php
   if($row['rank']==1){
-      echo '<iframe src="//giphy.com/embed/128Ygie2wLdH5m?html5=true" width="480" height="600" frameBorder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>';
+      echo '<div class="videoWrapper">'
+      . '<iframe src="//giphy.com/embed/eSgWOtWzmWKFG?html5=true" width="480" height="190" frameBorder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen>
+              </iframe>
+              </div>';
   }
   if($row['rank']==2){
-      echo '<iframe src="//giphy.com/embed/107KNI7aP9vA0U?html5=true" width="480" height="451" frameBorder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>';
+      echo '<div class="videoWrapper">
+      <iframe src="//giphy.com/embed/nkLB4Gp8H6hFe?html5=true" width="480" height="190" frameBorder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
+              </div>';
   }
   if($row['rank']==3){
-      echo '<iframe src="//giphy.com/embed/OTPuTLxwOyN1K?html5=true" width="480" height="270" frameBorder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>';
+      
+      echo '<div class="videoWrapper">
+      <iframe src="//giphy.com/embed/xFI1uuvUm78go?html5=true" width="480" height="190" frameBorder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
+      </div>';
   }
-    } 
+  if($row['rank'] >=4 && $row['rank']<=10){
+      echo '<div class="videoWrapper"><iframe src="//giphy.com/embed/W28knwL2ptomA?html5=true" width="480" height="190" frameBorder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe></div>';
+  }
+  if($row['rank'] >10){
+            echo '<div class="videoWrapper"><iframe  src="//giphy.com/embed/OTPuTLxwOyN1K?html5=true" width="480" height="190" frameBorder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe></div>';
+
+  }
+  echo '</div>'
+  . '</div><br/>';
+    }
   
          echo"<div class='container marketing'>
         <div class='col-xs-12 col-sm-8 col-md-6 col-sm-offset-2 col-md-offset-3'>"
@@ -129,8 +146,12 @@ FROM    members uo
 }
 echo "</ul></div>"
 . "</div>"
-        . "</div>
-<hr class='featurette-divider'>";
+        . "</div>";
+echo '<hr class="featurette-divider">
+  <footer>
+    <p class="pull-right"><a href="#">Back to top</a></p>
+    <p>2015 Students-NCI, &middot; <a href="#">Privacy</a> &middot; <a href="#">Terms</a></p>
+  </footer>';
   
 ?>
   </body>
