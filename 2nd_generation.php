@@ -6,11 +6,9 @@
  * and open the template in the editor.
  */
   require_once 'header.php';
-echo '<h2> Second Generation (1956-1963) Transistors</h2>
- <div class ="paragraph">    
- <p> </p>
-   
- <div class ="fcomputer"> </div> 
+  ?>
+<h2> Second Generation (1956-1963) Transistors</h2>
+ 
     
 
 <!-- START THE FEATURETTES -->
@@ -74,30 +72,23 @@ systems). Software industry has also begun to occur in this computer-and second-
 which allowed programmers to specify instructions in words. High-level programming languages were also being developed at this time, 
 such as early versions of COBOL and FORTRAN. 
 These were also the first computers that stored their instructions in their memory, which moved from a magnetic drum to magnetic core technology.
-<div class ="link"> <a href="http://www.webopedia.com/DidYouKnow/Hardware_Software/FiveGenerations.asp">Read more</a></div></p>
-                </div>
+ <a href="http://www.webopedia.com/DidYouKnow/Hardware_Software/FiveGenerations.asp">Read more</a></p>
+                
                 <div class="col-md-5">
                     <img class="featurette-image img-responsive" src="Images/transistor-computer.jpg" style="width: 400px; height: 300px;">
                 </div>
             </div>
+</div>
 
             <hr class="featurette-divider">
             <!-- /END THE FEATURETTES -->
 
-
-
-
-
-<br/> <br/>
 <!-- FOOTER -->
             <footer>
                 <p class="pull-right"><a href="#">Back to top</a></p>
                 <p>2015 Students-NCI, &middot; <a href="#">Privacy</a> &middot; <a href="#">Terms</a></p>
             </footer>
 
-</div>'
-  
-   ?>
 
     </span><br><br>
   </body>

@@ -7,7 +7,8 @@
  */
 
 require_once 'header.php';
-echo '<h2> Fifth Generation (Present and Beyond) Artificial Intelligence</h2>
+?>
+<h2> Fifth Generation (Present and Beyond) Artificial Intelligence</h2>
  <div class ="paragraph">    
  <p>  </p>
    
@@ -20,8 +21,9 @@ echo '<h2> Fifth Generation (Present and Beyond) Artificial Intelligence</h2>
             <div class="row featurette">
                 <div class="col-md-7">
                     <h2 class="featurette-heading">Figure 1: <span class="text-muted">Fifth Computer.</span></h2>
-                    <p class="lead">  
+                    
  <h3>Content for Question 5.</h3>
+ <p class="lead">  
 Introduction
 An arithmetic logic unit (ALU) is a digital circuit used to perform arithmetic and logic operations. It represents 
 the fundamental building block of the central processing unit (CPU) of a computer. Modern CPUs contain very powerful 
@@ -34,11 +36,11 @@ This generation of computers represents a unification of four separate areas of 
 - very high-level programming languages 
 - decentralised computing 
 - very large-scale integration technology (VLSI).
-Computers of this generation make use of parallel processing and they are capable of performing multiple, simultaneous instructions using more than one microprocessing chip. 
+Computers of this generation make use of parallel processing and they are capable of performing multiple, simultaneous instructions using more than one microprocessing chip.</p> 
 
 
 
-</p>
+
                 </div>
                 <div class="col-md-5">
                     <img class="featurette-image img-responsive" src="Images/Artificial Intelligence.jpg" style="width: 400px; height: 300px;">
@@ -86,15 +88,15 @@ applications, such as voice recognition, that are being used today.
 The use of parallel processing and superconductors is helping to make artificial intelligence a reality. Quantum 
 computation and molecular and nanotechnology will radically change the face of computers in years to come. 
 The goal of fifth-generation computing is to develop devices that respond to natural language input and are capable 
-of learning and self-organization.
+of learning and self-organization.</p>
 <div class ="link"> <a href="http://www.webopedia.com/DidYouKnow/Hardware_Software/FiveGenerations.asp">Read more</a></div>  
-</p>
+
                 </div>
                 <div class="col-md-5">
                     <img class="featurette-image img-responsive" src="Images/Artificial Intelligence.jpg" style="width: 400px; height: 300px;">
                 </div>
             </div>
-
+</div>
             <hr class="featurette-divider">
             <!-- /END THE FEATURETTES -->
 
@@ -105,8 +107,8 @@ of learning and self-organization.
                 <p>2015 Students-NCI, &middot; <a href="#">Privacy</a> &middot; <a href="#">Terms</a></p>
             </footer>
 
-</div>'
- ?>
+
+ 
 
     </span><br><br>
   </body>

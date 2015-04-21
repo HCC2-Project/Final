@@ -15,7 +15,8 @@ FROM
   members
   s1 JOIN members s2 ON (s1.quiz_score <= s2.quiz_score)
 GROUP BY s1.id
-ORDER by `rank` asc LIMIT 10
+having rank <= 10
+ORDER by `rank` 
 ;";
   $result = mysql_query($query) or die('Query failed: ' . mysql_error());
 
@@ -26,6 +27,8 @@ ORDER by `rank` asc LIMIT 10
 
   <div class="container marketing">
     <div class="col-xs-12 col-sm-8 col-md-6 col-sm-offset-2 col-md-offset-3">
+       
+        <h2>Top 10 Leader-Board</h3><br/>
       <table class="gradienttable">
         <tr>
           <th>Position</th>

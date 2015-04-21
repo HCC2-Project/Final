@@ -17,9 +17,26 @@
 		border: 1px solid #ccc; 
 		text-align: left; 
 	}*/
-
-
+/*
+@author css-tricks
+@date 20/04/2015
+@source https://css-tricks.com/NetMag/FluidWidthVideo/Article-FluidWidthVideo.php
+*/
+.videoWrapper {
+	position: relative;
+	padding-bottom: 56.25%; /* 16:9 */
+	padding-top: 25px;
+	height: 0;
+}
+.videoWrapper iframe {
+	position: absolute;
+	top: 0;
+	left: 56px;
+	width: 75%;
+	height: 75%;
+}
 table.gradienttable {
+        margin:auto;
         text-align: center;
         height: 100%;
         width: 70%;
@@ -94,6 +111,10 @@ textarea{
 
 body {
     border    :1px solid #888;
+}
+#pic{
+    width: 25%;
+    margin: auto;
 }
 
 

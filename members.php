@@ -11,7 +11,31 @@
 echo"<link href='CSS/styles.css' rel='stylesheet' type='text/css'/>"  ;
 
   if (!$loggedin) die();
-  /*
+
+  
+         echo"<div class='container marketing'>
+        <div class='col-xs-12 col-sm-8 col-md-6 col-sm-offset-2 col-md-offset-3'>";
+         
+    echo "<div class='main'>";
+  echo "<center><ul class='menus'>" .
+         "<li><a href='members.php'>Members</a></li>"        .
+         "<li><a href='messages.php'>Messages</a></li>"       .
+         "<li><a href='profile.php'>Edit Profile</a></li>"    .
+         "<li><a href='logout.php'>Log out</a></li></ul></center><br>";
+         
+  
+
+  if (isset($_GET['view']))
+  {
+    $view = sanitizeString($_GET['view']);
+    
+    if ($view == $user) $name = "Your";
+    else                $name = "$view's";
+    
+    echo "<h2>$name Profile</h2>";
+    echo '<div id="pic">';
+    echo showProfile($view).'</div>';
+      /*
 Getting individual rank of user from leaderboard
 @author 
 @date 17/04/2015
@@ -24,7 +48,7 @@ Getting individual rank of user from leaderboard
   $query = "
       SELECT  uo.*, 
         (
-        SELECT  COUNT(*)
+        SELECT  COUNT(DISTINCT ui.quiz_score)
         FROM    members ui
         WHERE   (ui.quiz_score, ui.id) >= (uo.quiz_score, uo.id)
         ) AS rank
@@ -36,48 +60,54 @@ FROM    members uo
     $num_results = mysql_num_rows($result);  
 
     while($row = mysql_fetch_array($result)){
-?>    <div class="container marketing">
-   
-        <h3><?php echo $row['user']." You are ranked number - ".$row['rank']; ?></h3>
+?>    
+        <h2><?php echo $row['user']." You are ranked number  ".$row['rank']; ?></h2>
     
-</div>
+
 
   <?php
   if($row['rank']==1){
-      echo '<iframe src="//giphy.com/embed/128Ygie2wLdH5m?html5=true" width="480" height="600" frameBorder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>';
+      echo '<div class="videoWrapper">'
+      . '<iframe src="//giphy.com/embed/eSgWOtWzmWKFG?html5=true" width="480" height="190" frameBorder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen>
+              </iframe>
+              </div>';
   }
   if($row['rank']==2){
-      echo '<iframe src="//giphy.com/embed/107KNI7aP9vA0U?html5=true" width="480" height="451" frameBorder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>';
+      echo '<div class="videoWrapper">
+      <iframe src="//giphy.com/embed/nkLB4Gp8H6hFe?html5=true" width="480" height="190" frameBorder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
+              </div>';
   }
   if($row['rank']==3){
-      echo '<iframe src="//giphy.com/embed/OTPuTLxwOyN1K?html5=true" width="480" height="270" frameBorder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>';
+      
+      echo '<div class="videoWrapper">
+      <iframe src="//giphy.com/embed/xFI1uuvUm78go?html5=true" width="480" height="190" frameBorder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
+      </div>';
   }
-    } 
-  
-         echo"<div class='container marketing'>
-        <div class='col-xs-12 col-sm-8 col-md-6 col-sm-offset-2 col-md-offset-3'>"
-    
-  . "<ul class='menus'>" .
-         "<li><a href='members.php'>Members</a></li>"        .
-         "<li><a href='messages.php'>Messages</a></li>"       .
-         "<li><a href='profile.php'>Edit Profile</a></li>"    .
-         "<li><a href='logout.php'>Log out</a></li></ul><br>";
-  echo "<div class='main'>";
+  if($row['rank'] >=4 && $row['rank']<=10){
+      echo '<div class="videoWrapper"><iframe src="//giphy.com/embed/W28knwL2ptomA?html5=true" width="480" height="190" frameBorder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe></div>';
+  }
+  if($row['rank'] >10){
+            echo '<div class="videoWrapper"><iframe  src="//giphy.com/embed/OTPuTLxwOyN1K?html5=true" width="480" height="190" frameBorder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe></div>';
 
-  if (isset($_GET['view']))
-  {
-    $view = sanitizeString($_GET['view']);
+  }
+  echo '<br/>';
+    }
     
-    if ($view == $user) $name = "Your";
-    else                $name = "$view's";
-    
-    echo "<h3>$name Profile</h3>";
-    showProfile($view);
-    
-    echo "<a class='button' href='messages.php?view=$view'> View $name messages</a><br><br>";
             echo'</div></div>';
- 
-    die("</div></body></html>");
+  
+    die('</div> <hr class="featurette-divider">
+            <!-- /END THE FEATURETTES -->
+
+
+
+
+
+<br/> <br/>
+<!-- FOOTER -->
+            <footer>
+                <p class="pull-right"><a href="#">Back to top</a></p>
+                <p>2015 Students-NCI, &middot; <a href="#">Privacy</a> &middot; <a href="#">Terms</a></p>
+            </footer></body></html>');
    
   }
 
@@ -129,8 +159,12 @@ FROM    members uo
 }
 echo "</ul></div>"
 . "</div>"
-        . "</div>
-<hr class='featurette-divider'>";
+        . "</div>";
+echo '<hr class="featurette-divider">
+  <footer>
+    <p class="pull-right"><a href="#">Back to top</a></p>
+    <p>2015 Students-NCI, &middot; <a href="#">Privacy</a> &middot; <a href="#">Terms</a></p>
+  </footer>';
   
 ?>
   </body>

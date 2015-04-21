@@ -28,7 +28,9 @@ echo '<p align="center"><strong><font face="Arial">
           <td height="25" bgcolor="#009900"><strong><font face="Arial">Grade in percentage:</font></strong></td>
           <td height="25"><textarea name="T2" rows="2" cols="40" wrap="virtual"></textarea></td>
         </tr>
+        
       </table>
+      <input type="submit" name="submit" value="enter score" class="btn btn-lg btn-primary btn-block">
     </form>
     </td>
   </tr>
@@ -55,7 +57,7 @@ incorrect=incorrect[1].split("/")
 if (incorrect[incorrect.length-1]=="b")
 incorrect=""
 document.result[0].value=totalquestions-incorrect.length+" out of "+totalquestions
-document.result[2].value=(totalquestions-incorrect.length)/totalquestions*100+"%"
+document.result[2].value=(totalquestions-incorrect.length)/totalquestions*100
 for (i=0;i<incorrect.length;i++)
 document.result[1].value+=incorrect[i]+", "
 
