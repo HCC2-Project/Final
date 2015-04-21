@@ -104,7 +104,7 @@
             </ol>
             <div class="carousel-inner" role="listbox">
                 <div class="item active">
-                    <img src="header1.jpg" alt="First slide">
+                    <img src="Images/header1.jpg" alt="First slide">
                     <div class="container">
                         <div class="carousel-caption">';
                                 if ($loggedin)
@@ -119,7 +119,7 @@
                 </div>
 
                 <div class="item">
-                    <img src="header4.jpg" alt="Second slide">
+                    <img src="Images/header4.jpg" alt="Second slide">
                     <div class="container">
                         <div class="carousel-caption">
                             <p><a href="quizzes.php" class="btn btn-lg btn-primary" role="button">Quizzes</a></p>
@@ -128,7 +128,7 @@
                 </div>                
 
                 <div class="item">
-                    <img src="header1.jpg" alt="Third slide">
+                    <img src="Images/header1.jpg" alt="Third slide">
                     <div class="container">
                         <div class="carousel-caption">
                             <p><a href="signup.php" class="btn btn-lg btn-primary" role="button">Sign Up</a></p>
@@ -137,7 +137,7 @@
                 </div>
 
                 <div class="item">
-                    <img src="header4.jpg" alt="Fourth slide">
+                    <img src="Images/header4.jpg" alt="Fourth slide">
                     <div class="container">
                         <div class="carousel-caption">
                             <p><a class="btn btn-lg btn-primary" href="#" role="button">Browse gallery</a></p>

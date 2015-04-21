@@ -14,23 +14,23 @@
             <!-- Three columns of text below the carousel -->
             <div class="row">
                 <div class="col-lg-4">
-                    <img class="img-circle" src="cloud.jpg" style="width: 140px; height: 140px;">
+                    <img class="img-circle" src="Images/cloud.jpg" style="width: 140px; height: 140px;">
                     <h3>First Generation</h3>
-                    <p>Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod. Nullam id dolor id nibh ultricies vehicula ut id elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Praesent commodo cursus magna.</p>
+                    <p> In this generation mainly batch processing operating system were used. Punched cards, paper tape, and magnetic tape were used as input and output devices. This generation...</p>
                     <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
             </div><!-- /.col-lg-4 -->
 
                 <div class="col-lg-4">
-                    <img class="img-circle" src="cloud.jpg" style="width: 140px; height: 140px;">
+                    <img class="img-circle" src="Images/cloud.jpg" style="width: 140px; height: 140px;">
                     <h3>Second Generation</h3>
-                    <p>Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Cras mattis consectetur purus sit amet fermentum. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh.</p>
+                    <p>The transition from first generation to second generation of computers was not abrupt. There was all round development in technology, designs and programming languages. </p>
                     <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
                 </div><!-- /.col-lg-4 -->
 
                 <div class="col-lg-4">
-                    <img class="img-circle" src="cloud.jpg" style="width: 140px; height: 140px;">
+                    <img class="img-circle" src="Images/cloud.jpg" style="width: 140px; height: 140px;">
                     <h3>Third Generation</h3>
-                    <p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
+                    <p>In this era, there were several innovations in various fields of computer technology. These include Integrated Circuits (ICs), Semiconductor Memories, Microprogramming. </p>
                     <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
                 </div><!-- /.col-lg-4 -->
             </div><!-- /.row -->
@@ -40,33 +40,38 @@
 
             <div class="row featurette">
                 <div class="col-md-7">
-                    <h2 class="featurette-heading">Computer Generations<span class="text-muted">Itll blow your mind.</span></h2>
-                    <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
+                    <h2 class="featurette-heading">First Generation (Vacuum Tubes)</h2>
+                    <p class="lead">The computers of first generation used vacuum tubes as the basic components for memory and circuitry for CPU (Central Processing Unit). These tubes, like electric bulbs, produced a lot of heat and were prone to frequent fusing of the installations, therefore, were very expensive and could be afforded only by very large organisations. </p>
                 </div>
                 <div class="col-md-5">
-                    <img class="featurette-image img-responsive" src="img.jpg" style="width: 500px; height: 500px;">
+                    <img class="featurette-image img-responsive" src="Images/UNIVAC_computer.jpg" style="width: 500px; height: 400px;">
                 </div>
             </div>
 
             <hr class="featurette-divider">
             <div class="row featurette">
                 <div class="col-md-5">
-                   <img class="featurette-image img-responsive" src="Amstrad_CPC464.jpg" style="width: 500px; height: 500px;">
+                   <img class="featurette-image img-responsive" src="Images/transistor-computer.jpg" style="width: 500px; height: 400px;">
                 </div>
                 <div class="col-md-7">
-                    <h2 class="featurette-heading">Oh yeah, its that good. <span class="text-muted">See for yourself.</span></h2>
-                    <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
+                    <h2 class="featurette-heading">Second Generation (Transistors)</h2>
+                    <p class="lead">Transistors replaced vacuum tubes and ushered in the second generation of computers. 
+                        The transistor was invented in 1947 but did not see widespread use in computers until the late 1950s. 
+                        The transistor was far superior to the vacuum tube, allowing computers to become smaller, faster, cheaper, 
+                        more energy-efficient and more reliable than their first-generation predecessors.</p>
                 </div>
             </div>
 
             <hr class="featurette-divider">
             <div class="row featurette">
                 <div class="col-md-7">
-                    <h2 class="featurette-heading">And lastly, this one. <span class="text-muted">Checkmate.</span></h2>
-                    <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
-                </div>
+                    <h2 class="featurette-heading">Third Generation (Integrated)</h2>
+                    <p class="lead">The development of the integrated circuit was the hallmark of the third generation of computers. 
+                        Transistors were miniaturized and placed on silicon chips, called semiconductors, 
+                        which drastically increased the speed and efficiency of computers.</p>
+              </div>
                 <div class="col-md-5">
-                    <img class="featurette-image img-responsive" src="img.jpg" style="width: 500px; height: 500px;">
+                    <img class="featurette-image img-responsive" src="Images/Integrated-Circuit.jpg" style="width: 500px; height: 400px;">
                 </div>
             </div>
 
