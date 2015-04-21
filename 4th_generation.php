@@ -7,7 +7,8 @@
  */
 
 require_once 'header.php';
-echo '<h2> Fourth Generation (1971-Present) Microprocessors</h2>
+?>
+<h2> Fourth Generation (1971-Present) Microprocessors</h2>
  <div class ="paragraph">    
     <p> </p>
    
@@ -95,9 +96,9 @@ memory to input/output controls—on a single chip..<br/> <br/>
 
 In 1981 IBM introduced its first computer for the home user, and in 1984 Apple introduced the Macintosh. 
 Microprocessors also moved out of the realm of desktop computers and into many areas of life as more and more 
-everyday products began to use microprocessors.
+everyday products began to use microprocessors.</p>
+
 <div class ="link"> <a href="http://www.webopedia.com/DidYouKnow/Hardware_Software/FiveGenerations.asp">Read more</a></div>  
-</p>
                 </div>
                 <div class="col-md-5">
                     <img class="featurette-image img-responsive" src="Images/microchips.jpg" style="width: 400px; height: 300px;">
@@ -110,7 +111,7 @@ everyday products began to use microprocessors.
 
 
 
-
+</div>
 <br/> <br/>
 <!-- FOOTER -->
             <footer>
@@ -118,8 +119,8 @@ everyday products began to use microprocessors.
                 <p>2015 Students-NCI, &middot; <a href="#">Privacy</a> &middot; <a href="#">Terms</a></p>
             </footer>
 
-</div>'
- ?>
+
+ 
 
     </span><br><br>
   </body>

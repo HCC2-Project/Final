@@ -60,7 +60,7 @@ h2{
   bottom: 0px;
 }
 .carousel {
-    height: 160px;
+    height: 190px;
     margin-bottom: 30px;
 }
 /* Since positioning the image, we need to help out the caption */
@@ -73,7 +73,7 @@ h2{
 
 /* Declare heights because of positioning of img element */
 .carousel .item {
-    height: 160px;
+    height: 190px;
     background-color: #777;
 }
 .carousel-inner > .item > img {
@@ -135,7 +135,7 @@ h2{
 @media (min-width: 768px) {
     /* Navbar positioning foo */
     .navbar-wrapper {
-        margin-top: 4px;
+        margin-top: 15px;
     }
     .navbar-wrapper .container {
         padding-right: 15px;

@@ -7,7 +7,8 @@
  */
 
 require_once 'header.php';
-echo '<h2> Third Generation (1964-1971) Integrated Circuits</h2>
+?>
+<h2> Third Generation (1964-1971) Integrated Circuits</h2>
  <div class ="paragraph">    
  <p>  </p>
    
@@ -72,7 +73,8 @@ per chip). There were also developments of multi-layered printed circuits.
                     <img class="featurette-image img-responsive" src="Images/Integrated-Circuit.jpg" style="width: 400px; height: 300px;">
                 </div>
             </div>
-
+</div>
+ 
             <hr class="featurette-divider">
             <!-- /END THE FEATURETTES -->
 
@@ -87,8 +89,7 @@ per chip). There were also developments of multi-layered printed circuits.
                 <p>2015 Students-NCI, &middot; <a href="#">Privacy</a> &middot; <a href="#">Terms</a></p>
             </footer>
 
-</div>'
- ?>
+
 
     </span><br><br>
   </body>

@@ -6,8 +6,8 @@
  * and open the template in the editor.
  */
   require_once 'header.php';
-
- echo '<h2> First Generation (1940-1956) Vacuum Tubes</h2>
+?>
+<h2> First Generation (1940-1956) Vacuum Tubes</h2>
  
    
   <!-- START THE FEATURETTES -->
@@ -97,9 +97,9 @@ the weave going across. </p>
                 <p class="pull-right"><a href="#">Back to top</a></p>
                 <p>2015 Students-NCI, &middot; <a href="#">Privacy</a> &middot; <a href="#">Terms</a></p>
             </footer>
-</div>'
+</div>
   
-  ?>
+ 
 
     </span><br><br>
   </body>

@@ -94,7 +94,19 @@ FROM    members uo
     
             echo'</div></div>';
   showProfile($view);
-    die("</div></body></html>");
+    die('</div> <hr class="featurette-divider">
+            <!-- /END THE FEATURETTES -->
+
+
+
+
+
+<br/> <br/>
+<!-- FOOTER -->
+            <footer>
+                <p class="pull-right"><a href="#">Back to top</a></p>
+                <p>2015 Students-NCI, &middot; <a href="#">Privacy</a> &middot; <a href="#">Terms</a></p>
+            </footer></body></html>');
    
   }
 

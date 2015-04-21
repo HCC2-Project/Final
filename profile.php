@@ -100,7 +100,19 @@ _END;
     <input type='submit' value='Save Profile'>
     </form></div><br>"
   . "</div>";
- echo '</div>'; 
+ echo '</div> <hr class="featurette-divider">
+            <!-- /END THE FEATURETTES -->
+
+
+
+
+
+<br/> <br/>
+<!-- FOOTER -->
+            <footer>
+                <p class="pull-right"><a href="#">Back to top</a></p>
+                <p>2015 Students-NCI, &middot; <a href="#">Privacy</a> &middot; <a href="#">Terms</a></p>
+            </footer>'; 
 ?>
 
 

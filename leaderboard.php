@@ -27,6 +27,7 @@ ORDER by `rank`
 
   <div class="container marketing">
     <div class="col-xs-12 col-sm-8 col-md-6 col-sm-offset-2 col-md-offset-3">
+        <h2>Top 10 Leader-Board</h3>
       <table class="gradienttable">
         <tr>
           <th>Position</th>
