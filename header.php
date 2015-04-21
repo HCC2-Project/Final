@@ -20,7 +20,7 @@
   else $loggedin = FALSE;
 
 
-  echo "<!DOCTYPE html>\n<html><head>";
+  echo "<!DOCTYPE html><html><head>";
         echo "<title>$appname$userstr</title><link rel='stylesheet" .
             "<meta charset='utf-8'>"
           . "<meta http-equiv='X-UA-Compatible' content='IE=edge'>"

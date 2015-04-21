@@ -33,7 +33,8 @@ echo"<link href='CSS/styles.css' rel='stylesheet' type='text/css'/>"  ;
     else                $name = "$view's";
     
     echo "<h2>$name Profile</h2>";
-   
+    echo '<div id="pic">';
+    echo showProfile($view).'</div>';
       /*
 Getting individual rank of user from leaderboard
 @author 
@@ -93,7 +94,7 @@ FROM    members uo
     }
     
             echo'</div></div>';
-  showProfile($view);
+  
     die('</div> <hr class="featurette-divider">
             <!-- /END THE FEATURETTES -->
 
