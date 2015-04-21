@@ -5,8 +5,8 @@
  * and open the template in the editor.
  */
 require_once 'header.php';
-        
-echo'
+        ?>
+
     <style>
 .qheader{
 font:bold 14px Arial;
@@ -35,8 +35,8 @@ document.cookie="ready=yes"
 
 <form method="POST" name="myquiz">
 
-<font face="Arial"><big><big>History of Computer Quiz</big></big></font></p>
-
+<h2>History of Computer Quiz</h2>
+<hr class="featurette-quizhr">
 <div class="qheader">
 1)  Who was known as the Father of Computers?</div>
 <div class="qselections">
@@ -327,10 +327,8 @@ document.cookie="ready=yes"
                 <p class="pull-right"><a href="#">Back to top</a></p>
                 <p>&copy; 2014 Company, Inc. &middot; <a href="#">Privacy</a> &middot; <a href="#">Terms</a></p>
             </footer>
-        </div>
-    </div>';
+       
 
-?>
 
 <script>
     var actualchoices = new Array()
