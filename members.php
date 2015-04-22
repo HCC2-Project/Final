@@ -17,11 +17,11 @@ echo"<link href='CSS/styles.css' rel='stylesheet' type='text/css'/>"  ;
         <div class='col-xs-12 col-sm-8 col-md-6 col-sm-offset-2 col-md-offset-3'>";
          
     echo "<div class='main'>";
-  echo "<center><ul class='menus'>" .
+  echo "<ul class='menus'>" .
          "<li><a href='members.php'>Members</a></li>"        .
          "<li><a href='messages.php'>Messages</a></li>"       .
          "<li><a href='profile.php'>Edit Profile</a></li>"    .
-         "<li><a href='logout.php'>Log out</a></li></ul></center><br>";
+         "<li><a href='logout.php'>Log out</a></li></ul><br>";
          
   
 
