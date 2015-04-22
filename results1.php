@@ -1,8 +1,8 @@
 <?php
     /*
      * @author Sena Onsho
-     * @Date 24/03/2015
-     * @Source 
+     * @Date 22/03/2015
+     * @Source http://www.javascriptkit.com
      * 
      */
 require_once 'header.php';
