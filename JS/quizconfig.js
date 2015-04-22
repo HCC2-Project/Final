@@ -1,4 +1,9 @@
-
+ /*
+     * @author Sena Onsho
+     * @Date 25/03/2015
+     * @Source http://www.javascriptkit.com
+     * 
+ */
 //Enter total number of questions:
 var totalquestions=25
 
@@ -62,7 +67,6 @@ var result = window.open("","result")
 result.focus()
 result.document.open()
 result.document.write('<title>Solution</title>')
-//result.document.write('<body bgcolor="#FFFFCC">')
 result.document.write('<center><h3>Solution to Quiz</h3></center>')
 result.document.write('<center><font face="Arial">')
 
