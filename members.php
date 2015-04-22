@@ -8,7 +8,7 @@
 // Example 26-9: members.php
   require_once 'header.php';
   
-echo"<link href='CSS/styles.css' rel='stylesheet' type='text/css'/>"  ;
+
 
   if (!$loggedin) die();
 
@@ -61,7 +61,7 @@ FROM    members uo
 
     while($row = mysql_fetch_array($result)){
 ?>    
-        <h2><?php echo $row['user']." You are ranked number  ".$row['rank']; ?></h2>
+        <h2><?php echo $row['user']." You are ranked #".$row['rank']; ?></h2>
     
 
 

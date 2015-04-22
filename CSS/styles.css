@@ -28,6 +28,7 @@
 	padding-top: 25px;
 	height: 0;
 }
+
 .videoWrapper iframe {
 	position: absolute;
 	top: 0;
@@ -43,7 +44,7 @@ table.gradienttable {
 	
         font-family: verdana,arial,sans-serif;
 	
-        font-size:11px;
+        
 	
         color:#333333;
 	border-width: 1px;
@@ -113,7 +114,7 @@ body {
     border    :1px solid #888;
 }
 #pic{
-    width: 25%;
+    width: 17%;
     margin: auto;
 }
 
@@ -150,7 +151,7 @@ li a:hover, .button:hover {
 }
 
 .main {
-    margin-left: 30px;
+   text-align: center;
     
 }
 
@@ -162,9 +163,7 @@ li a:hover, .button:hover {
     
 }
 .menus{
-  top: 0;
-  right: 0;
-  left: 0;
+  margin-right: 30px;
 }
 
 
@@ -204,7 +203,7 @@ li a:hover, .button:hover {
     text-indent: 50px;
     font-size: 20px;
 }
-h2{
+h2, h3{
     font-family: Georgina;
     color: #0066FF;
 }
