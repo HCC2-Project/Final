@@ -1,15 +1,11 @@
 <?php
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
  /*
      * @author Sena Onsho
-     * @Date 24/03/2015
-     * @Source 
+     * @Date 15/02/2015
+     * @Source http://www.javascriptkit.com
      * 
-     */
+ */
+    
 require_once 'header.php';
         ?>
 
