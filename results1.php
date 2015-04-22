@@ -6,13 +6,15 @@
      * 
      */
 require_once 'header.php';
-echo '<p align="center"><strong><font face="Arial">
+?>
+
 
 <script src="quizconfig.js">
 </script>
-
-<div align="center"><div>
-<h2> Quiz Results</h2></font></strong></p>
+<div class="container marketing">
+    <div class="col-xs-12 col-sm-8 col-md-6 col-sm-offset-2 col-md-offset-3">
+<div>
+<h2> Quiz Results</h2>
 <table border="0" cellspacing="0" cellpadding="0">
   <tr>
     <td width="100%"><form method="POST" name="result"><table border="0" width="100%" cellpadding="0" height="116">
@@ -37,8 +39,8 @@ echo '<p align="center"><strong><font face="Arial">
 </table>
 </div>
 
-<form method="POST"><div
-  align="center"><p>
+<form method="POST">
+    <div align="center"><p>
 
 <script>
 var wrong=0
@@ -67,10 +69,10 @@ document.result[1].value+=incorrect[i]+", "
 <input type="button" value="Take the quiz again" name="B1"
   onClick="history.go(-1)"> <input type="button" value="View solution" name="B2"
   onClick="showsolution()"></p>
-  </center></div>
-</form>';
+  </div>
+</form>
 
-
+<?php
 $connection = mysql_connect("localhost", "root", "password"); // Establishing Connection with Server
 $db = mysql_select_db("robinsnest", $connection); // Selecting Database from Server
 if(isset($_POST["submit"])){ // Fetching variables of the form which travels in URL
@@ -81,12 +83,20 @@ $query = mysql_query("update members set quiz_score='$score' where user='$user'"
 echo "<br/><br/><span>Data Inserted successfully...!!</span>";
 }
 else{
-    echo"You must be logged in to update your score in leaderboard!";  
+    echo"You must be logged in to update your score in leaderboard!</div>";  
 }
 }
 
 mysql_close($connection); // Closing Connection with Server
 ?>
+</div>
+    </div>
+<hr class="featurette-divider">
+  <footer>
+    <p class="pull-right"><a href="#">Back to top</a></p>
+    <p>2015 Students-NCI, &middot; <a href="#">Privacy</a> &middot; <a href="#">Terms</a></p>
+  </footer>
+
 </body>
 </html>
 
