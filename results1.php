@@ -80,7 +80,7 @@ if(isset($_POST["submit"])){ // Fetching variables of the form which travels in 
 //Insert Query of SQL
         $score = $_POST["T2"];
 $query = mysql_query("update members set quiz_score='$score' where user='$user'");
-echo "<br/><br/><span>Data Inserted successfully...!!</span>";
+
 }
 else{
     echo"You must be logged in to update your score in leaderboard!</div>";  
