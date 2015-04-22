@@ -71,7 +71,7 @@ document.result[1].value+=incorrect[i]+", "
 </form>';
 
 
-$connection = mysql_connect("localhost", "root", "Giiftii2011"); // Establishing Connection with Server
+$connection = mysql_connect("localhost", "root", "password"); // Establishing Connection with Server
 $db = mysql_select_db("robinsnest", $connection); // Selecting Database from Server
 if(isset($_POST["submit"])){ // Fetching variables of the form which travels in URL
     if (isset($_SESSION["user"])){
