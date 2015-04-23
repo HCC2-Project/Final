@@ -119,7 +119,7 @@
                 </div>
 
                 <div class="item">
-                    <img src="Images/header4.jpg" alt="Second slide">
+                    <img src="Images/fi_large.jpg" alt="Second slide">
                     <div class="container">
                         <div class="carousel-caption">
                             <p><a href="quizzes.php" class="btn btn-lg btn-primary" role="button"></a></p>
@@ -137,7 +137,7 @@
                 </div>
 
                 <div class="item">
-                    <img src="Images/header4.jpg" alt="Fourth slide">
+                    <img src="Images/1866bykgo2s1njpg.jpg" alt="Fourth slide">
                     <div class="container">
                         <div class="carousel-caption">
                             <p><a class="btn btn-lg btn-primary" href="#" role="button"></a></p>
