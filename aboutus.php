@@ -6,13 +6,13 @@
 */
 require_once 'header.php';
 ?>
-<h2><span class="text-muted">Team KVMC</span></h2>
+<h2><span class="text-muted">About Us</span></h2>
 <hr class="featurette-divider">
 <!-- START THE FEATURETTES -->
 <div class="container marketing">    
     
     <div class="row featurette">  
-        <p class="lead">About Us</p>
+        <p class="lead">Team KVMC</p>
         <img class="featurette-image img-responsive" src="Images/nci.jpg" style="width: 400px; height: 300px;">
 
         <p>  
@@ -22,8 +22,7 @@ M-Learning or Mobile Learning is the concept of a user accessing a topic they ar
 Gamification is a concept that awards the user in a way that increases interactivity with an application and records their progress. It can take the form of completing a profile, answering a questionnaire, answering quiz type questions and posting the results for other users to view.</P><P> Awards are gained by the users in the form of new features being opened up within the application, higher profile status or a ranking place on a leaderboard. Gamification can be used as a powerful marketing tool, by the application administrators gathering and analysing the response of each user’s interaction within the application.
 In terms of E-Learning our application will aid people who have an interest in computers and would like to learn about the history of computing. It will also aid students who are thinking of entering a third level computer course.
 The gamification aspect of our application will be quizz based, with short multiple choice questions on each section of the timeline. The users results will be displayed on a leaderboard, allowing them to compare themselves with other users.
-
-        </p>
+</p>
        
 
         <hr class="featurette-divider">
