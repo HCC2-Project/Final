@@ -12,7 +12,7 @@ require_once 'header.php';
 <div class="container marketing">    
     
     <div class="row featurette">  
-        <p class="lead">Short History</p>
+        
         <img class="featurette-image img-responsive" src="Images/UNIVAC_computer.jpg" style="width: 400px; height: 300px;">
 
         <p>  

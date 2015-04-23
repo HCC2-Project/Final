@@ -7,12 +7,13 @@
 
 require_once 'header.php';
 ?>
-<h2><span class="text-muted">Fifth Computer Generation (1990 - onwards)Artificial Intelligence</span></h2>
+<h2><span class="text-muted">Fifth Computer Generation (1990 - onwards) - Artificial Intelligence</span></h2>
 <hr class="featurette-divider">
 <!-- START THE FEATURETTES -->
 <div class="container marketing">
     <div class="row featurette">
-        <img class="featurette-image img-responsive" src="Images/Artificial Intelligence.jpg" style="width: 400px; height: 300px;">
+        <img class="featurette-image img-responsive" src="Images/newgeneration.jpg" style="width: 400px; height: 300px;">
+        
         <p>
             An arithmetic logic unit (ALU) is a digital circuit used to perform arithmetic and logic operations. It represents 
             the fundamental building block of the central processing unit (CPU) of a computer. Modern CPUs contain very powerful 

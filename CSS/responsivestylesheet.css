@@ -118,9 +118,16 @@ h2{
 }
 
 .marketing .featurette-image{
-    float: right;
-    
+    float: right;    
     margin-left: 25px;
+    margin-right: 25px;
+    margin-bottom:20px;
+    margin-top:10px;
+}
+
+.marketing .featurette-image1{
+    float: left;    
+    margin-left: 0px;
     margin-right: 25px;
     margin-bottom:20px;
     margin-top:10px;
@@ -163,10 +170,6 @@ h2{
 .slideview-header-container row{
     margin: 0 auto;
 }
-
-
-
-
 
 
 

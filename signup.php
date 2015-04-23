@@ -82,6 +82,7 @@ _END;
             <form name="signup" method="post" action="signup.php" role="form">$error
                 <fieldset>
                     <h2>Please Register</h2>
+          <hr class="featurette-quizhr">
                      <hr class="colorgraph">
                         <div class="form-group">
                              <input name="user" type="text" id="user" value"$user" class="form-control input-lg" placeholder="User Name" required autofocus>

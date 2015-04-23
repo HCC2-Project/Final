@@ -41,6 +41,7 @@
             <div class="col-xs-12 col-sm-8 col-md-6 col-sm-offset-2 col-md-offset-3">
             <form name="form_login" method="post" action="login.php" role="form">$error
                 <fieldset><h2>Please Sign In</h2>
+          <hr class="featurette-quizhr">
                     <hr class="colorgraph">
                     <div class="form-group">
                         <input name="user" type="text" id="user" value="$user" class="form-control input-lg" placeholder="User Name" required autofocus>
