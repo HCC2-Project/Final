@@ -17,17 +17,19 @@ require_once 'header.php';
 <h2> Quiz Results</h2>
 <table border="0" cellspacing="0" cellpadding="0">
   <tr>
-    <td width="100%"><form method="POST" name="result"><table border="0" width="100%" cellpadding="0" height="116">
+    <td width="100%"><form method="POST" name="result"><table border-color="#2e6da4" border="0" width="100%" cellpadding="0" height="116">
         <tr>
-          <td height="25" bgcolor="#297ACC"><strong><font face="Arial">Correct Answers:</font></strong></td>
+          <td height="25"  bgcolor="#337ab7"><strong><font face="Arial">Correct Answers:</font></strong></td>
+       
           <td height="25"><p><textarea name="T2" rows="2" cols="40" wrap="virtual"></textarea></td>
+   
         </tr>
         <tr>
-          <td height="17" bgcolor="#297ACC"><strong><font face="Arial">Incorrect Answers:</font></strong></td>
+          <td height="17" bgcolor="#337ab7"><strong><font face="Arial">Incorrect Answers:</font></strong></td>
           <td height="17"><p><textarea name="T2" rows="3" cols="40" wrap="virtual"></textarea></td>
         </tr>
         <tr>
-          <td height="25" bgcolor="#297ACC"><strong><font face="Arial">Grade in percentage:</font></strong></td>
+          <td height="25" bgcolor="#337ab7"><strong><font face="Arial">Grade in percentage:</font></strong></td>
           <td height="25"><textarea name="T2" rows="2" cols="40" wrap="virtual"></textarea></td>
         </tr>
         
