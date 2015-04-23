@@ -144,5 +144,9 @@ http://www.tutorialspoint.com/computer_fundamentals/index.htm
 http://www.webopedia.com/DidYouKnow/Hardware_Software/FiveGenerations.asp
 http://histryofcomputr.blogspot.ie/2010/12/1st-gen.html
 https://fahmirahman.wordpress.com/2011/01/04/five-generations-of-computer/
+http://www.byte-notes.com/five-generations-computers
+http://www.webopedia.com/DidYouKnow/Hardware_Software/FiveGenerations.asp
+http://pholeytech.blogspot.ie/2011/05/history-of-computer-second-generation.html
+
 -->
 
