@@ -40,7 +40,7 @@ The software is going to have admin/login, so the users need to create  their ow
         <!-- Three columns of text below the carousel -->
         <div class="row">
             <div class="col-lg-4">
-                <img class="img-circle" src="Images/nci.jpg" style="width: 140px; height: 140px;">
+                <img class="img-circle" src="Images/cloud.jpg" style="width: 140px; height: 140px;">
                 <h4><span class="text-muted">1st Computer Generation - Abhay Sharma</span></h4>
                 <!--<p>The development of electronic computers had clearly helped to visualize the concept of computer. The computer system...</p>-->
                 <p><a class="btn btn-default" href="http://histryofcomputr.blogspot.ie/2010/12/1st-gen.html" target="_blank" role="button">Read more... &raquo;</a></p>
