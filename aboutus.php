@@ -6,13 +6,13 @@
 */
 require_once 'header.php';
 ?>
-<h2><span class="text-muted">Team KVMC</span></h2>
+<h2><span class="text-muted">About Us</span></h2>
 <hr class="featurette-divider">
 <!-- START THE FEATURETTES -->
 <div class="container marketing">    
     
     <div class="row featurette">  
-        <p class="lead">About Us</p>
+        <p class="lead">Team KVMC</p>
         <img class="featurette-image img-responsive" src="Images/nci.jpg" style="width: 400px; height: 300px;">
 
         <p>  
