@@ -6,7 +6,7 @@
 */
 require_once 'header.php';
 ?>
-<h2><span class="text-muted">First Generation (1940-1956) Vacuum Tubes</span></h2>
+<h2>First Generation (1940-1956) Vacuum Tubes</h2>
 <hr class="featurette-divider">
 <!-- START THE FEATURETTES -->
 <div class="container marketing">    

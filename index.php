@@ -3,15 +3,20 @@
 * To change this license header, choose License Headers in Project Properties.
 * To change this template file, choose Tools | Templates
 * and open the template in the editor.
+ * code reference: 
+ * wireframe: Bootstrap 
+ * http://getbootstrap.com/getting-started/#download
+ * 
+ * 
 */
 require_once 'header.php';
 ?>
-<h2><span class="text-muted">Computer Generations</span></h2>
+<h2>Computer Generations></h2>
 <hr class="featurette-divider">
 <!-- START THE FEATURETTES -->
 <div class="container marketing">
     <div class="row featurette">
-        <img class="featurette-image img-responsive" src="Images/genration.png" style="width: 350px; height: 250px;">
+        <img class="featurette-image img-responsive" src="Images/genration.png" style="width: 450px; height: 350px;">
         <p>
             The history of computer development is often referred to in reference to the different 
             generations of computing devices. 
@@ -122,5 +127,22 @@ require_once 'header.php';
 
 <!--references:
 http://www.csi.ucd.ie/staff/jcarthy/home/CourseNotes/History%20%20+%20chips.pdf
+http://www.tutorialspoint.com/computer_fundamentals/pdf/computer_generations.pdf
+http://www.byte-notes.com/five-generations-computers
+http://www.webopedia.com/DidYouKnow/Hardware_Software/FiveGenerations.asp
+http://pholeytech.blogspot.ie/2011/05/history-of-computer-second-generation.html
+http://itcoursenotes.webs.com/IT%20Lec%201%20History%20of%20Computers.pdf
+http://journal.info.unlp.edu.ar/journal/journal11/papers/JCST-Aug04-1.pdf
+http://www.niecdelhi.ac.in/uploads/Notes/btech/1sem/Computer%20Generations.pdf
+http://www.lsp4you.com/electronics/Generation%20of%20Computers.pdf
+http://www.theregister.co.uk/2014/07/09/ibm_3billion_megabuck_r_and_d/
+http://www.independent.co.uk/life-style/gadgets-and-tech/news/next-generation-computers-will-be-highly-interactive-devices-controlled-by-gestures-1901967.html
+http://www.webopedia.com/DidYouKnow/Hardware_Software/FiveGenerations.asp
+http://www.slideshare.net/Suaj/basics-of-computer-system-ppt?next_slideshow=7
+http://www.javascriptkit.com/javatutors/external.shtml
+http://www.tutorialspoint.com/computer_fundamentals/index.htm
+http://www.webopedia.com/DidYouKnow/Hardware_Software/FiveGenerations.asp
+http://histryofcomputr.blogspot.ie/2010/12/1st-gen.html
+https://fahmirahman.wordpress.com/2011/01/04/five-generations-of-computer/
 -->
 

@@ -7,7 +7,7 @@
 */
 require_once 'header.php';
 ?>
-<h2><span class="text-muted">Second Computer Generation (1956-1963) Transistors</span></h2>
+<h2>Second Computer Generation (1956-1963) Transistors</h2>
 <hr class="featurette-divider">
 <!-- START THE FEATURETTES -->
 <div class="container marketing">

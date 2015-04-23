@@ -7,7 +7,7 @@
 
 require_once 'header.php';
 ?>
-<h2><span class="text-muted">Fifth Computer Generation (1990 - onwards) - Artificial Intelligence</span></h2>
+<h2>Fifth Computer Generation (1990 - onwards) - Artificial Intelligence</h2>
 <hr class="featurette-divider">
 <!-- START THE FEATURETTES -->
 <div class="container marketing">

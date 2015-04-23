@@ -15,6 +15,7 @@ require_once 'header.php';
     <div class="col-xs-12 col-sm-8 col-md-6 col-sm-offset-2 col-md-offset-3">
 <div>
 <h2> Quiz Results</h2>
+
 <table border="0" cellspacing="0" cellpadding="0">
   <tr>
     <td width="100%"><form method="POST" name="result"><table border-color="#2e6da4" border="0" width="100%" cellpadding="0" height="116">
@@ -42,7 +43,7 @@ require_once 'header.php';
 </div>
 
 <form method="POST">
-    <div align="center"><p>
+    <div class="results"><p>
 
 <script>
 var wrong=0
