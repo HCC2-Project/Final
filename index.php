@@ -1,92 +1,68 @@
-<?php 
+<?php
 /*
-     * @author Robin Nixon
-     * @Date 10/03/2015
-       @Source http://lpmj.net/4thedition/ 
-     * 
-     */
-// Example 26-4: index.php
-  require_once 'header.php';
+* To change this license header, choose License Headers in Project Properties.
+* To change this template file, choose Tools | Templates
+* and open the template in the editor.
+*/
+require_once 'header.php';
+?>
+<h2><span class="text-muted">Computer Generations</span></h2>
+<hr class="featurette-divider">
+<!-- START THE FEATURETTES -->
+<div class="container marketing">
+    <div class="row featurette">
 
-  echo'<div class="container marketing">
-      <div class="container marketing">
+        <p>
+            The history of computer development is often referred to in reference to the different generations of computing devices. Each generation of computer is characterized 
+            by a major technological development that fundamentally changed the way computers operate, resulting in increasingly smaller, cheaper, and more powerful, efficient and reliable devices. 
+            Each generation of computer is characterized by a major technological development that fundamentally changed the way computers operate, resulting in increasingly smaller, cheaper, 
+            and more powerful and more efficient and reliable devices. 
+            We need more text here....
+        </p>
 
-            <!-- Three columns of text below the carousel -->
-            <div class="row">
-                <div class="col-lg-4">
-                    <img class="img-circle" src="Images/cloud.jpg" style="width: 140px; height: 140px;">
-                    <h3>First Generation</h3>
-                    <p> In this generation mainly batch processing operating system were used. Punched cards, paper tape, and magnetic tape were used as input and output devices. This generation...</p>
-                    <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
+        <hr class="featurette-divider">
+
+        <!-- Three columns of text below the carousel -->
+        <div class="row">
+            <div class="col-lg-4">
+                <img class="img-circle" src="Images/cloud.jpg" style="width: 140px; height: 140px;">
+                <h4><span class="text-muted">Computer History - Fundamentals of Information Technology</span></h4>
+                <!--<p>Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod. Nullam id dolor id nibh ultricies vehicula ut id elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Praesent commodo cursus magna.</p>-->
+                <p><a class="btn btn-default" href="http://itcoursenotes.webs.com/IT%20Lec%201%20History%20of%20Computers.pdf" target="_blank" role="button">Read more... &raquo;</a></p>
             </div><!-- /.col-lg-4 -->
 
-                <div class="col-lg-4">
-                    <img class="img-circle" src="Images/cloud.jpg" style="width: 140px; height: 140px;">
-                    <h3>Second Generation</h3>
-                    <p>The transition from first generation to second generation of computers was not abrupt. There was all round development in technology, designs and programming languages. </p>
-                    <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
-                </div><!-- /.col-lg-4 -->
+            <div class="col-lg-4">
+                <img class="img-circle" src="Images/cloud.jpg" style="width: 140px; height: 140px;">
+                <h4><span class="text-muted">Computer History - UCD School of Computer Science</span></h4>
+                <!--<p>Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod. Nullam id dolor id nibh ultricies vehicula ut id elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Praesent commodo cursus magna.</p>-->
+                <p><a class="btn btn-default" href="http://www.csi.ucd.ie/staff/jcarthy/home/CourseNotes/History%20%20+%20chips.pdf" target="_blank" role="button">Read more... &raquo;</a></p>
+            </div><!-- /.col-lg-4 -->
 
-                <div class="col-lg-4">
-                    <img class="img-circle" src="Images/cloud.jpg" style="width: 140px; height: 140px;">
-                    <h3>Third Generation</h3>
-                    <p>In this era, there were several innovations in various fields of computer technology. These include Integrated Circuits (ICs), Semiconductor Memories, Microprogramming. </p>
-                    <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
-                </div><!-- /.col-lg-4 -->
-            </div><!-- /.row -->
-
-            <!-- START THE FEATURETTES -->
-            <hr class="featurette-divider">
-
-            <div class="row featurette">
-                <div class="col-md-7">
-                    <h2 class="featurette-heading">First Generation (Vacuum Tubes)</h2>
-                    <p class="lead">The computers of first generation used vacuum tubes as the basic components for memory and circuitry for CPU (Central Processing Unit). These tubes, like electric bulbs, produced a lot of heat and were prone to frequent fusing of the installations, therefore, were very expensive and could be afforded only by very large organisations. </p>
-                </div>
-                <div class="col-md-5">
-                    <img class="featurette-image img-responsive" src="Images/UNIVAC_computer.jpg" style="width: 500px; height: 400px;">
-                </div>
-            </div>
-
-            <hr class="featurette-divider">
-            <div class="row featurette">
-                <div class="col-md-5">
-                   <img class="featurette-image img-responsive" src="Images/transistor-computer.jpg" style="width: 500px; height: 400px;">
-                </div>
-                <div class="col-md-7">
-                    <h2 class="featurette-heading">Second Generation (Transistors)</h2>
-                    <p class="lead">Transistors replaced vacuum tubes and ushered in the second generation of computers. 
-                        The transistor was invented in 1947 but did not see widespread use in computers until the late 1950s. 
-                        The transistor was far superior to the vacuum tube, allowing computers to become smaller, faster, cheaper, 
-                        more energy-efficient and more reliable than their first-generation predecessors.</p>
-                </div>
-            </div>
-
-            <hr class="featurette-divider">
-            <div class="row featurette">
-                <div class="col-md-7">
-                    <h2 class="featurette-heading">Third Generation (Integrated)</h2>
-                    <p class="lead">The development of the integrated circuit was the hallmark of the third generation of computers. 
-                        Transistors were miniaturized and placed on silicon chips, called semiconductors, 
-                        which drastically increased the speed and efficiency of computers.</p>
-              </div>
-                <div class="col-md-5">
-                    <img class="featurette-image img-responsive" src="Images/Integrated-Circuit.jpg" style="width: 500px; height: 400px;">
-                </div>
-            </div>
-
-            <hr class="featurette-divider">
-            <!-- /END THE FEATURETTES -->
+            <div class="col-lg-4">
+                <img class="img-circle" src="Images/cloud.jpg" style="width: 140px; height: 140px;">
+                <h4><span class="text-muted">Computer History - Generation & Description</span></h4>
+                <!--<p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>-->
+                <p><a class="btn btn-default" href="http://www.tutorialspoint.com/computer_fundamentals/pdf/computer_generations.pdf" target="_blank" role="button">Read more... &raquo;</a></p>
+            </div><!-- /.col-lg-4 -->
+        </div>
 
 
-            <!-- FOOTER -->
-            <footer>
-                <p class="pull-right"><a href="#">Back to top</a></p>
-                <p>2015 Students-NCI, &middot; <a href="#">Privacy</a> &middot; <a href="#">Terms</a></p>
-            </footer>
-    </div>';
-?>
 
-   
-  </body>
+
+        <!-- /END THE FEATURETTES -->
+        <hr class="featurette-divider">
+
+        <!-- FOOTER -->
+        <footer>
+            <p class="pull-right"><a href="#">Back to top</a></p>
+            <p>2015 Students-NCI, &middot; <a href="#">Privacy</a> &middot; <a href="#">Terms</a></p>
+        </footer>
+    </div>
+</div>
+
+</body>
 </html>
+
+
+
+

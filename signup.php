@@ -76,8 +76,9 @@ _END;
   }
 
   echo <<<_END
-    <div class="container marketing">
-        <div class="col-xs-12 col-sm-8 col-md-6 col-sm-offset-2 col-md-offset-3">
+   <div class="container marketing">
+        <div class="row">
+            <div class="col-xs-12 col-sm-8 col-md-6 col-sm-offset-2 col-md-offset-3">
             <form name="signup" method="post" action="signup.php" role="form">$error
                 <fieldset>
                     <h2>Please Register</h2>
@@ -105,8 +106,9 @@ _END;
                 </fieldset>
             </form>
         </div>
+      </div>
         <hr class="featurette-divider">
-    </div>
+   
             <!-- /END THE FEATURETTES -->
 
 
@@ -114,7 +116,8 @@ _END;
             <footer>
                 <p class="pull-right"><a href="#">Back to top</a></p>
                 <p>2015 Students-NCI, &middot; <a href="#">Privacy</a> &middot; <a href="#">Terms</a></p>
-            </footer>';
+            </footer>
+                </div>';
     
 _END;
 ?>  

@@ -1,3 +1,4 @@
+
 /*
 To change this license header, choose License Headers in Project Properties.
 To change this template file, choose Tools | Templates
@@ -15,11 +16,28 @@ and open the template in the editor.
 body {
     padding-bottom: 40px;
     color: #5a5a5a;
+    margin: 0 auto;
+    
 }
-h2, h3{
+h2{
     text-align: center;
 }
 
+.center{
+    position:absolute;    
+        z-index:10;
+     top:85%;
+     left:55%;
+     margin:-100px 0 0 -150px;
+}
+
+.quizz{
+    position:absolute;    
+     z-index:10;
+     top:55%;
+     left:45%;
+     margin:-100px 0 0 -150px;
+}
 /* CUSTOMIZE THE NAVBAR
 -------------------------------------------------- */
 
@@ -50,30 +68,18 @@ h2, h3{
 -------------------------------------------------- */
 
 /* Carousel base class */
-.carousel-control .glyphicon-chevron-left, .carousel-control .glyphicon-chevron-right, .carousel-control .icon-next, .carousel-control .icon-prev {
-  width: 30px;
-  height: 30px;
-  margin-top: 0px;
-  font-size: 30px;
-}
-.carousel-indicators {
-  bottom: 0px;
-}
 .carousel {
-    height: 190px;
-    margin-bottom: 30px;
+    height: 300px;
+    margin-bottom: 60px;
 }
 /* Since positioning the image, we need to help out the caption */
 .carousel-caption {
     z-index: 10;
-    right: 20%;
-    left: 20%;
-    padding-bottom: 0px;
 }
 
 /* Declare heights because of positioning of img element */
 .carousel .item {
-    height: 190px;
+    height: 300px;
     background-color: #777;
 }
 .carousel-inner > .item > img {
@@ -81,7 +87,7 @@ h2, h3{
     top: 0;
     left: 0;
     min-width: 100%;
-    height: 270px;
+    height: 500px;
 }
 
 
@@ -89,20 +95,74 @@ h2, h3{
 -------------------------------------------------- */
 
 /* Center align the text within the three columns below the carousel */
-.marketing .col-lg-4 {
+
+
+.row featurette .col-lg-4 {
     margin-bottom: 20px;
     text-align: center;
+    
 }
 .marketing h3 {
     font-weight: normal;
 }
 .marketing .col-lg-4 p {
     margin-riht: 10px;
-    margin-lgeft: 10px;
+    margin-left: 10px;
+}
+
+.marketing .row{
+    width: 90%;
+    text-align: justify;
+    overflow: auto;
+    margin: 0 auto;
+}
+
+.marketing .featurette-image{
+    float: right;
+    
+    margin-left: 25px;
+    margin-right: 25px;
+    margin-bottom:20px;
+    margin-top:10px;
+}
+
+.marketing .row featurette{
+    overflow: auto;
+    margin: 0 auto;
+}
+
+.marketing .row featurette p {
+    line-height: 180%;
+    text-align: justify;  
+    padding: 7px;
 }
 
 
+.marketing .col-lg-4 {
+  margin-bottom: 10px;
+  text-align: center;
+}
 
+
+.marketing h4 {
+  font-weight: bold;
+}
+.marketing .col-lg-4 p {
+
+  margin-right: 20px;
+  margin-left: 20px;
+}
+.myslide{
+    margin: 0 auto;
+    v-align: middle;
+}
+
+#slideview-container{
+    margin: 0 auto;
+}
+.slideview-header-container row{
+    margin: 0 auto;
+}
 
 
 
@@ -126,7 +186,6 @@ h2, h3{
     font-weight: 300;
     line-height: 4;
     letter-spacing: -1px;
-    padding-top: 0;
 }
 
 
@@ -136,7 +195,7 @@ h2, h3{
 @media (min-width: 768px) {
     /* Navbar positioning foo */
     .navbar-wrapper {
-        margin-top: 15px;
+        margin-top: 20px;
     }
     .navbar-wrapper .container {
         padding-right: 15px;

@@ -36,8 +36,9 @@
   }
 
   echo <<<_END
-    <div class="container marketing">
-        <div class="col-xs-12 col-sm-8 col-md-6 col-sm-offset-2 col-md-offset-3">
+     <div class="container marketing">
+        <div class="row">
+            <div class="col-xs-12 col-sm-8 col-md-6 col-sm-offset-2 col-md-offset-3">
             <form name="form_login" method="post" action="login.php" role="form">$error
                 <fieldset><h2>Please Sign In</h2>
                     <hr class="colorgraph">
@@ -64,8 +65,9 @@
                 </fieldset>
             </form>
         </div>
+      </div>
         <hr class="featurette-divider">
-    </div>
+    
             <!-- /END THE FEATURETTES -->
 
 
@@ -73,7 +75,8 @@
             <footer>
                 <p class="pull-right"><a href="#">Back to top</a></p>
                 <p>2015 Students-NCI, &middot; <a href="#">Privacy</a> &middot; <a href="#">Terms</a></p>
-            </footer>';
+            </footer>
+                </div>';
     
 _END;
 ?>

@@ -31,8 +31,10 @@ document.cookie="ready=yes"
 
 </head>
 
-<body>
 
+<div class="container marketing">
+        <div class="row">
+            <div class="col-xs-12 col-sm-8 col-md-6 col-sm-offset-2 col-md-offset-3">
 <p align="center">
 
 <form method="POST" name="myquiz">
@@ -319,7 +321,8 @@ document.cookie="ready=yes"
 <input type="button" value="Get Score!" name="B1" onClick="gradeit()"> 
 <input type="button" value="Reset" name="B2" onClick="document.myquiz.reset()"></div>
 </form>
-
+            </div>
+        </div>
 <hr class="featurette-divider">
 
             <!-- /END THE FEATURETTES -->
@@ -330,7 +333,7 @@ document.cookie="ready=yes"
                 <p>&copy; 2014 Company, Inc. &middot; <a href="#">Privacy</a> &middot; <a href="#">Terms</a></p>
             </footer>
        
-
+</div>
 
 <script>
     var actualchoices = new Array()
