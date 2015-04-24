@@ -12,7 +12,7 @@
 require_once 'header.php';
 ?>
 <h2>Computer Generations</h2>
-<hr class="featurette-divider">
+<br/>
 <!-- START THE FEATURETTES -->
 <div class="container marketing">
     <div class="row featurette">

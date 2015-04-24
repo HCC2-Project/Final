@@ -7,7 +7,7 @@
 require_once 'header.php';
 ?>
 <h2>About Us</h2>
-<hr class="featurette-divider">
+<br/>
 <!-- START THE FEATURETTES -->
 <div class="container marketing">    
     
