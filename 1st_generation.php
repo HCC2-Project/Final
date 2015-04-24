@@ -6,6 +6,7 @@
 */
 require_once 'header.php';
 ?>
+
 <h2>First Generation (1940-1956) Vacuum Tubes</h2>
 <br/>
 <!-- START THE FEATURETTES -->
