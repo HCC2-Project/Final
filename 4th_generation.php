@@ -8,7 +8,7 @@
 require_once 'header.php';
 ?>
 <h2>Fourth Computer Generation (1971-1990)Microprocessors</h2>
-<hr class="featurette-divider">
+<br/>
 <!-- START THE FEATURETTES -->
 <div class="container marketing">
     <div class="row featurette">

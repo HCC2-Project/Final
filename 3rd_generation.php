@@ -9,7 +9,7 @@
 require_once 'header.php';
 ?>
 <h2>Third Computer Generation (1964-1971) Integrated Circuits</h2>
-<hr class="featurette-divider">
+<br/>
 <!-- START THE FEATURETTES -->
 <div class="container marketing">
     <div class="row featurette">

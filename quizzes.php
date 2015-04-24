@@ -40,7 +40,7 @@ document.cookie="ready=yes"
 <form method="POST" name="myquiz">
 
 <h2>History of Computer Quiz</h2>
-<hr class="featurette-quizhr">
+<br/>
 <div class="qheader">
 1)  Who was known as the Father of Computers?</div>
 <div class="qselections">
