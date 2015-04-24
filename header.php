@@ -111,9 +111,7 @@
   {
                             
   }
-  else {
-                            echo'<p><a href="login.php" class="btn btn-lg btn-primary" role="button"></a></p>';
-  }                            
+                          
                         echo'</div>
                     </div>
                 </div>
@@ -122,7 +120,7 @@
                     <img src="Images/fi_large.jpg" alt="Second slide">
                     <div class="container">
                         <div class="carousel-caption">
-                            <p><a href="quizzes.php" class="btn btn-lg btn-primary" role="button"></a></p>
+                            
                         </div>
                     </div>
                 </div>                
@@ -131,7 +129,7 @@
                     <img src="Images/header1.jpg" alt="Third slide">
                     <div class="container">
                         <div class="carousel-caption">
-                            <p><a href="signup.php" class="btn btn-lg btn-primary" role="button"></a></p>
+                            
                         </div>
                     </div>
                 </div>
@@ -140,7 +138,7 @@
                     <img src="Images/1866bykgo2s1njpg.jpg" alt="Fourth slide">
                     <div class="container">
                         <div class="carousel-caption">
-                            <p><a class="btn btn-lg btn-primary" href="#" role="button"></a></p>
+                           
                         </div>
                     </div>
                 </div>
