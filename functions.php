@@ -12,7 +12,7 @@
   $dbpass  = "password";   // ...to your installation
   $appname = "The History Of Computing"; // ...and preference
 
-  $connection = new mysql($dbhost, $dbuser, $dbpass, $dbname);
+  $connection = new mysqli($dbhost, $dbuser, $dbpass, $dbname);
   if ($connection->connect_error) die($connection->connect_error);
   function alterTable(){
       queryMysql("ALTER TABLE members add id INT(2) NOT NULL primary KEY AUTO_INCREMENT;");
